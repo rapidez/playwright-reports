@@ -1,0 +1,209 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - link "Login" [ref=e30]:
+          - /url: http://localhost:8000/login
+          - img [ref=e31]
+        - link "Cart" [ref=e33]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Home" [ref=e53]:
+            - /url: http://localhost:8000
+            - generic [ref=e54]: Home
+          - img [ref=e55]
+        - listitem [ref=e57]:
+          - generic [ref=e58]: Set of Sprite Yoga Straps
+      - generic [ref=e60]:
+        - link "Set of Sprite Yoga Straps" [ref=e66]:
+          - /url: http://localhost:1234/media/catalog/product/l/u/luma-yoga-strap-set.jpg
+          - img "Set of Sprite Yoga Straps" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - text: Sprite Yoga Strap 6 foot
+                - generic [ref=e73]: €14.00
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - button "Decrease" [disabled] [ref=e76]:
+                    - img [ref=e77]
+                  - spinbutton "Quantity" [ref=e78]: "1"
+                  - button "Increase" [ref=e79] [cursor=pointer]:
+                    - img [ref=e80] [cursor=pointer]
+                - button "Add to cart" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83] [cursor=pointer]
+                  - generic [ref=e85] [cursor=pointer]: Add to cart
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - text: Sprite Yoga Strap 8 foot
+                - generic [ref=e89]: €17.00
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - button "Decrease" [disabled] [ref=e92]:
+                    - img [ref=e93]
+                  - spinbutton "Quantity" [ref=e94]: "1"
+                  - button "Increase" [ref=e95] [cursor=pointer]:
+                    - img [ref=e96] [cursor=pointer]
+                - button "Add to cart" [ref=e98] [cursor=pointer]:
+                  - img [ref=e99] [cursor=pointer]
+                  - generic [ref=e101] [cursor=pointer]: Add to cart
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - text: Sprite Yoga Strap 10 foot
+                - generic [ref=e105]: €21.00
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - button "Decrease" [disabled] [ref=e108]:
+                    - img [ref=e109]
+                  - spinbutton "Quantity" [ref=e110]: "1"
+                  - button "Increase" [ref=e111] [cursor=pointer]:
+                    - img [ref=e112] [cursor=pointer]
+                - button "Add to cart" [ref=e114] [cursor=pointer]:
+                  - img [ref=e115] [cursor=pointer]
+                  - generic [ref=e117] [cursor=pointer]: Add to cart
+          - generic [ref=e118]:
+            - generic [ref=e119]: Description
+            - generic [ref=e120]:
+              - paragraph [ref=e121]: "Great set of Sprite Yoga Straps for every stretch and hold you need. There are three straps in this set: 6', 8' and 10'."
+              - list [ref=e122]:
+                - listitem [ref=e123]: 100% soft and durable cotton.
+                - listitem [ref=e124]: Plastic cinch buckle is easy to use.
+                - listitem [ref=e125]: Choice of three natural colors made from phthalate and heavy metal free dyes.
+          - generic [ref=e126]:
+            - generic [ref=e127]: Specifications
+            - generic [ref=e128]:
+              - term [ref=e129]: ID
+              - definition [ref=e130]: "46"
+              - term [ref=e131]: SKU
+              - definition [ref=e132]: 24-WG085_Group
+              - term [ref=e133]: Activity
+              - definition [ref=e134]: Yoga
+              - term [ref=e135]: Material
+              - definition [ref=e136]: Canvas, Plastic
+              - term [ref=e137]: Gender
+              - definition [ref=e138]: Men, Women, Unisex
+              - term [ref=e139]: Category
+              - definition [ref=e140]: Exercise
+  - contentinfo [ref=e141]:
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - navigation [ref=e144]:
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - strong [ref=e147]: Catalog
+            - listitem [ref=e148]:
+              - link "What's New" [ref=e149]:
+                - /url: /what-is-new.html
+            - listitem [ref=e150]:
+              - link "Women" [ref=e151]:
+                - /url: /women.html
+            - listitem [ref=e152]:
+              - link "Men" [ref=e153]:
+                - /url: /men.html
+            - listitem [ref=e154]:
+              - link "Gear" [ref=e155]:
+                - /url: /gear.html
+            - listitem [ref=e156]:
+              - link "Training" [ref=e157]:
+                - /url: /training.html
+            - listitem [ref=e158]:
+              - link "Sale" [ref=e159]:
+                - /url: /sale.html
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - strong [ref=e162]: Support
+            - listitem [ref=e163]:
+              - link "Customer Service" [ref=e164]:
+                - /url: /customer-service.html
+            - listitem [ref=e165]:
+              - link "Documentation" [ref=e166]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e167]:
+              - link "FAQ" [ref=e168]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - strong [ref=e171]: Legal
+            - listitem [ref=e172]:
+              - link "Privacy" [ref=e173]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e174]:
+              - link "Cookies" [ref=e175]:
+                - /url: /enable-cookies
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - strong [ref=e178]: Rapidez
+            - listitem [ref=e179]:
+              - link "Website" [ref=e180]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e181]:
+              - link "GitHub" [ref=e182]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e183]:
+          - strong [ref=e184]: Want product news and updates?
+          - paragraph [ref=e185]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - textbox "Enter your email" [ref=e191]
+              - button "Subscribe" [ref=e193] [cursor=pointer]
+            - paragraph [ref=e194]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e195]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - link "GitHub" [ref=e198]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e199]: GitHub
+            - img [ref=e200]
+          - link "X" [ref=e202]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e203]: X
+            - img [ref=e204]
+          - link "Slack" [ref=e206]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e207]: Slack
+            - img [ref=e208]
+        - paragraph [ref=e211]: © 2025 Rapidez. All rights reserved.
+```
