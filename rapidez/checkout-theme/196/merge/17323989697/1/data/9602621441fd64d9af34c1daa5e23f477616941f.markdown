@@ -1,0 +1,1082 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - link "Go to home" [ref=e12]:
+        - /url: http://localhost:8000
+        - img "Rapidez logo" [ref=e14]
+      - generic [ref=e18]:
+        - searchbox "What are you looking for?" [ref=e19]
+        - button "Clear the search query" [ref=e20] [cursor=pointer]:
+          - img [ref=e21] [cursor=pointer]
+        - button "@lang('Search')" [ref=e23] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e24]:
+        - link "Login" [ref=e27]:
+          - /url: http://localhost:8000/login
+          - img [ref=e28]
+        - link "Cart" [ref=e30]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e31]
+      - navigation "Main menu" [ref=e33]:
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "What's New" [ref=e37]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e38]:
+            - link "Women" [ref=e39]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e40]:
+            - link "Men" [ref=e41]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e42]:
+            - link "Gear" [ref=e43]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e44]:
+            - link "Training" [ref=e45]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e46]:
+            - link "Sale" [ref=e47]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link "Home" [ref=e52]:
+            - /url: http://localhost:8000
+            - generic [ref=e53]: Home
+          - img [ref=e54]
+        - listitem [ref=e56]:
+          - link "Women" [ref=e57]:
+            - /url: http://localhost:8000/women.html
+            - generic [ref=e58]: Women
+          - img [ref=e59]
+        - listitem [ref=e61]:
+          - generic [ref=e62]: Tops
+      - heading "Tops" [level=1] [ref=e63]
+      - generic [ref=e67]:
+        - generic [ref=e72]:
+          - generic:
+            - list
+          - generic [ref=e73]:
+            - searchbox "Search within the results" [ref=e74]
+            - img [ref=e75]
+            - button "__('Clear the search query')":
+              - img
+          - group [ref=e78]:
+            - generic "Category" [ref=e79] [cursor=pointer]:
+              - text: Category
+              - img [ref=e80] [cursor=pointer]
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - link "Bras & Tanks (14)" [ref=e86]:
+                  - /url: http://localhost:8000/women/tops-women.html?category=Bras%20%26%20Tanks
+                  - text: Bras & Tanks
+                  - generic [ref=e87]: (14)
+              - listitem [ref=e88]:
+                - link "Hoodies & Sweatshirts (12)" [ref=e89]:
+                  - /url: http://localhost:8000/women/tops-women.html?category=Hoodies%20%26%20Sweatshirts
+                  - text: Hoodies & Sweatshirts
+                  - generic [ref=e90]: (12)
+              - listitem [ref=e91]:
+                - link "Jackets (12)" [ref=e92]:
+                  - /url: http://localhost:8000/women/tops-women.html?category=Jackets
+                  - text: Jackets
+                  - generic [ref=e93]: (12)
+              - listitem [ref=e94]:
+                - link "Tees (12)" [ref=e95]:
+                  - /url: http://localhost:8000/women/tops-women.html?category=Tees
+                  - text: Tees
+                  - generic [ref=e96]: (12)
+          - group [ref=e99]:
+            - generic "Price" [ref=e100] [cursor=pointer]:
+              - text: Price
+              - img [ref=e101] [cursor=pointer]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - slider "Price from": "22"
+                - slider "Price to": "84"
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - spinbutton "@lang('Price from')" [ref=e115]: "22"
+                  - generic [ref=e116]: €
+                - generic [ref=e117]:
+                  - spinbutton "@lang('Price to')" [ref=e118]: "84"
+                  - generic [ref=e119]: €
+          - group [ref=e122]:
+            - generic "Color" [ref=e123] [cursor=pointer]:
+              - text: Color
+              - img [ref=e124] [cursor=pointer]
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - generic [ref=e129] [cursor=pointer]:
+                  - checkbox "Purple" [ref=e131]
+                  - generic: Purple
+              - listitem [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]:
+                  - checkbox "Blue" [ref=e135]
+                  - generic: Blue
+              - listitem [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]:
+                  - checkbox "Orange" [ref=e139]
+                  - generic: Orange
+              - listitem [ref=e140]:
+                - generic [ref=e141] [cursor=pointer]:
+                  - checkbox "Green" [ref=e143]
+                  - generic: Green
+              - listitem [ref=e144]:
+                - generic [ref=e145] [cursor=pointer]:
+                  - checkbox "Red" [ref=e147]
+                  - generic: Red
+              - listitem [ref=e148]:
+                - generic [ref=e149] [cursor=pointer]:
+                  - checkbox "Yellow" [ref=e151]
+                  - generic: Yellow
+              - listitem [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]:
+                  - checkbox "Black" [ref=e155]
+                  - generic: Black
+              - listitem [ref=e156]:
+                - generic [ref=e157] [cursor=pointer]:
+                  - checkbox "White" [ref=e159]
+                  - generic: White
+              - listitem [ref=e160]:
+                - generic [ref=e161] [cursor=pointer]:
+                  - checkbox "Gray" [ref=e163]
+                  - generic: Gray
+              - listitem [ref=e164]:
+                - generic [ref=e165] [cursor=pointer]:
+                  - checkbox "Brown" [ref=e167]
+                  - generic: Brown
+          - group [ref=e169]:
+            - generic "Material" [ref=e170] [cursor=pointer]:
+              - text: Material
+              - img [ref=e171] [cursor=pointer]
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175] [cursor=pointer]:
+                  - checkbox "Polyester (22)" [ref=e176] [cursor=pointer]
+                  - generic [ref=e177] [cursor=pointer]:
+                    - text: Polyester
+                    - generic [ref=e178] [cursor=pointer]: (22)
+                - generic [ref=e179] [cursor=pointer]:
+                  - checkbox "Cotton (16)" [ref=e180] [cursor=pointer]
+                  - generic [ref=e181] [cursor=pointer]:
+                    - text: Cotton
+                    - generic [ref=e182] [cursor=pointer]: (16)
+                - generic [ref=e183] [cursor=pointer]:
+                  - checkbox "Spandex (13)" [ref=e184] [cursor=pointer]
+                  - generic [ref=e185] [cursor=pointer]:
+                    - text: Spandex
+                    - generic [ref=e186] [cursor=pointer]: (13)
+                - generic [ref=e187] [cursor=pointer]:
+                  - checkbox "Nylon (10)" [ref=e188] [cursor=pointer]
+                  - generic [ref=e189] [cursor=pointer]:
+                    - text: Nylon
+                    - generic [ref=e190] [cursor=pointer]: (10)
+                - generic [ref=e191] [cursor=pointer]:
+                  - checkbox "Cocona® performance fabric (9)" [ref=e192] [cursor=pointer]
+                  - generic [ref=e193] [cursor=pointer]:
+                    - text: Cocona® performance fabric
+                    - generic [ref=e194] [cursor=pointer]: (9)
+                - generic [ref=e195] [cursor=pointer]:
+                  - checkbox "Organic Cotton (9)" [ref=e196] [cursor=pointer]
+                  - generic [ref=e197] [cursor=pointer]:
+                    - text: Organic Cotton
+                    - generic [ref=e198] [cursor=pointer]: (9)
+              - button "More options" [ref=e199] [cursor=pointer]
+          - group [ref=e202]:
+            - generic "Size" [ref=e203] [cursor=pointer]:
+              - text: Size
+              - img [ref=e204] [cursor=pointer]
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - generic [ref=e209] [cursor=pointer]:
+                  - text: S
+                  - checkbox "S" [ref=e210]
+              - listitem [ref=e211]:
+                - generic [ref=e212] [cursor=pointer]:
+                  - text: M
+                  - checkbox "M" [ref=e213]
+              - listitem [ref=e214]:
+                - generic [ref=e215] [cursor=pointer]:
+                  - text: L
+                  - checkbox "L" [ref=e216]
+              - listitem [ref=e217]:
+                - generic [ref=e218] [cursor=pointer]:
+                  - text: XS
+                  - checkbox "XS" [ref=e219]
+              - listitem [ref=e220]:
+                - generic [ref=e221] [cursor=pointer]:
+                  - text: XL
+                  - checkbox "XL" [ref=e222]
+          - group [ref=e224]:
+            - generic "Eco Collection" [ref=e225] [cursor=pointer]:
+              - text: Eco Collection
+              - img [ref=e226] [cursor=pointer]
+            - generic [ref=e229]:
+              - generic [ref=e230] [cursor=pointer]:
+                - checkbox "No (38)" [ref=e231] [cursor=pointer]
+                - generic [ref=e232] [cursor=pointer]:
+                  - text: "No"
+                  - generic [ref=e233] [cursor=pointer]: (38)
+              - generic [ref=e234] [cursor=pointer]:
+                - checkbox "Yes (12)" [ref=e235] [cursor=pointer]
+                - generic [ref=e236] [cursor=pointer]:
+                  - text: "Yes"
+                  - generic [ref=e237] [cursor=pointer]: (12)
+          - group [ref=e239]:
+            - generic "Performance Fabric" [ref=e240] [cursor=pointer]:
+              - text: Performance Fabric
+              - img [ref=e241] [cursor=pointer]
+            - generic [ref=e244]:
+              - generic [ref=e245] [cursor=pointer]:
+                - checkbox "No (35)" [ref=e246] [cursor=pointer]
+                - generic [ref=e247] [cursor=pointer]:
+                  - text: "No"
+                  - generic [ref=e248] [cursor=pointer]: (35)
+              - generic [ref=e249] [cursor=pointer]:
+                - checkbox "Yes (15)" [ref=e250] [cursor=pointer]
+                - generic [ref=e251] [cursor=pointer]:
+                  - text: "Yes"
+                  - generic [ref=e252] [cursor=pointer]: (15)
+          - group [ref=e254]:
+            - generic "Erin Recommends" [ref=e255] [cursor=pointer]:
+              - text: Erin Recommends
+              - img [ref=e256] [cursor=pointer]
+            - generic [ref=e259]:
+              - generic [ref=e260] [cursor=pointer]:
+                - checkbox "No (39)" [ref=e261] [cursor=pointer]
+                - generic [ref=e262] [cursor=pointer]:
+                  - text: "No"
+                  - generic [ref=e263] [cursor=pointer]: (39)
+              - generic [ref=e264] [cursor=pointer]:
+                - checkbox "Yes (11)" [ref=e265] [cursor=pointer]
+                - generic [ref=e266] [cursor=pointer]:
+                  - text: "Yes"
+                  - generic [ref=e267] [cursor=pointer]: (11)
+          - group [ref=e269]:
+            - generic "New" [ref=e270] [cursor=pointer]:
+              - text: New
+              - img [ref=e271] [cursor=pointer]
+            - generic [ref=e274]:
+              - generic [ref=e275] [cursor=pointer]:
+                - checkbox "No (37)" [ref=e276] [cursor=pointer]
+                - generic [ref=e277] [cursor=pointer]:
+                  - text: "No"
+                  - generic [ref=e278] [cursor=pointer]: (37)
+              - generic [ref=e279] [cursor=pointer]:
+                - checkbox "Yes (13)" [ref=e280] [cursor=pointer]
+                - generic [ref=e281] [cursor=pointer]:
+                  - text: "Yes"
+                  - generic [ref=e282] [cursor=pointer]: (13)
+          - group [ref=e284]:
+            - generic "Sale" [ref=e285] [cursor=pointer]:
+              - text: Sale
+              - img [ref=e286] [cursor=pointer]
+            - generic [ref=e289]:
+              - generic [ref=e290] [cursor=pointer]:
+                - checkbox "No (38)" [ref=e291] [cursor=pointer]
+                - generic [ref=e292] [cursor=pointer]:
+                  - text: "No"
+                  - generic [ref=e293] [cursor=pointer]: (38)
+              - generic [ref=e294] [cursor=pointer]:
+                - checkbox "Yes (12)" [ref=e295] [cursor=pointer]
+                - generic [ref=e296] [cursor=pointer]:
+                  - text: "Yes"
+                  - generic [ref=e297] [cursor=pointer]: (12)
+          - group [ref=e299]:
+            - generic "Style" [ref=e300] [cursor=pointer]:
+              - text: Style
+              - img [ref=e301] [cursor=pointer]
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e305] [cursor=pointer]:
+                  - checkbox "Full Zip (12)" [ref=e306] [cursor=pointer]
+                  - generic [ref=e307] [cursor=pointer]:
+                    - text: Full Zip
+                    - generic [ref=e308] [cursor=pointer]: (12)
+                - generic [ref=e309] [cursor=pointer]:
+                  - checkbox "Jacket (12)" [ref=e310] [cursor=pointer]
+                  - generic [ref=e311] [cursor=pointer]:
+                    - text: Jacket
+                    - generic [ref=e312] [cursor=pointer]: (12)
+                - generic [ref=e313] [cursor=pointer]:
+                  - checkbox "Tee (12)" [ref=e314] [cursor=pointer]
+                  - generic [ref=e315] [cursor=pointer]:
+                    - text: Tee
+                    - generic [ref=e316] [cursor=pointer]: (12)
+                - generic [ref=e317] [cursor=pointer]:
+                  - checkbox "Pullover (10)" [ref=e318] [cursor=pointer]
+                  - generic [ref=e319] [cursor=pointer]:
+                    - text: Pullover
+                    - generic [ref=e320] [cursor=pointer]: (10)
+                - generic [ref=e321] [cursor=pointer]:
+                  - checkbox "Hoodie (9)" [ref=e322] [cursor=pointer]
+                  - generic [ref=e323] [cursor=pointer]:
+                    - text: Hoodie
+                    - generic [ref=e324] [cursor=pointer]: (9)
+                - generic [ref=e325] [cursor=pointer]:
+                  - checkbox "Tank (9)" [ref=e326] [cursor=pointer]
+                  - generic [ref=e327] [cursor=pointer]:
+                    - text: Tank
+                    - generic [ref=e328] [cursor=pointer]: (9)
+              - button "More options" [ref=e329] [cursor=pointer]
+          - group [ref=e331]:
+            - generic "Pattern" [ref=e332] [cursor=pointer]:
+              - text: Pattern
+              - img [ref=e333] [cursor=pointer]
+            - generic [ref=e336]:
+              - generic [ref=e337] [cursor=pointer]:
+                - checkbox "Solid (46)" [ref=e338] [cursor=pointer]
+                - generic [ref=e339] [cursor=pointer]:
+                  - text: Solid
+                  - generic [ref=e340] [cursor=pointer]: (46)
+              - generic [ref=e341] [cursor=pointer]:
+                - checkbox "Color-Blocked (2)" [ref=e342] [cursor=pointer]
+                - generic [ref=e343] [cursor=pointer]:
+                  - text: Color-Blocked
+                  - generic [ref=e344] [cursor=pointer]: (2)
+              - generic [ref=e345] [cursor=pointer]:
+                - checkbox "Checked (1)" [ref=e346] [cursor=pointer]
+                - generic [ref=e347] [cursor=pointer]:
+                  - text: Checked
+                  - generic [ref=e348] [cursor=pointer]: (1)
+              - generic [ref=e349] [cursor=pointer]:
+                - checkbox "Striped (1)" [ref=e350] [cursor=pointer]
+                - generic [ref=e351] [cursor=pointer]:
+                  - text: Striped
+                  - generic [ref=e352] [cursor=pointer]: (1)
+          - group [ref=e354]:
+            - generic "Climate" [ref=e355] [cursor=pointer]:
+              - text: Climate
+              - img [ref=e356] [cursor=pointer]
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360] [cursor=pointer]:
+                  - checkbox "Indoor (35)" [ref=e361] [cursor=pointer]
+                  - generic [ref=e362] [cursor=pointer]:
+                    - text: Indoor
+                    - generic [ref=e363] [cursor=pointer]: (35)
+                - generic [ref=e364] [cursor=pointer]:
+                  - checkbox "Warm (28)" [ref=e365] [cursor=pointer]
+                  - generic [ref=e366] [cursor=pointer]:
+                    - text: Warm
+                    - generic [ref=e367] [cursor=pointer]: (28)
+                - generic [ref=e368] [cursor=pointer]:
+                  - checkbox "Spring (21)" [ref=e369] [cursor=pointer]
+                  - generic [ref=e370] [cursor=pointer]:
+                    - text: Spring
+                    - generic [ref=e371] [cursor=pointer]: (21)
+                - generic [ref=e372] [cursor=pointer]:
+                  - checkbox "Cool (17)" [ref=e373] [cursor=pointer]
+                  - generic [ref=e374] [cursor=pointer]:
+                    - text: Cool
+                    - generic [ref=e375] [cursor=pointer]: (17)
+                - generic [ref=e376] [cursor=pointer]:
+                  - checkbox "Mild (16)" [ref=e377] [cursor=pointer]
+                  - generic [ref=e378] [cursor=pointer]:
+                    - text: Mild
+                    - generic [ref=e379] [cursor=pointer]: (16)
+                - generic [ref=e380] [cursor=pointer]:
+                  - checkbox "All-Weather (8)" [ref=e381] [cursor=pointer]
+                  - generic [ref=e382] [cursor=pointer]:
+                    - text: All-Weather
+                    - generic [ref=e383] [cursor=pointer]: (8)
+              - button "More options" [ref=e384] [cursor=pointer]
+        - generic [ref=e386]:
+          - generic [ref=e388]:
+            - generic [ref=e390]: 50 products
+            - combobox "Items per page" [ref=e392]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+              - option "All"
+            - combobox "Sort options" [ref=e394]:
+              - option "Relevance" [selected]
+              - option "Name A-Z"
+              - option "Name Z-A"
+              - option "Price ascending"
+              - option "Price descending"
+              - option "Newest"
+          - generic [ref=e397]:
+            - generic [ref=e399]:
+              - link "Mona Pullover Hoodlie Mona Pullover Hoodlie €57.00" [ref=e400]:
+                - /url: http://localhost:8000/mona-pullover-hoodlie.html
+                - img "Mona Pullover Hoodlie" [ref=e401]
+                - generic [ref=e402]:
+                  - generic [ref=e403]: Mona Pullover Hoodlie
+                  - generic [ref=e405]: €57.00
+              - generic [ref=e407]:
+                - generic [ref=e409]:
+                  - generic [ref=e410]: Color *
+                  - list [ref=e411]:
+                    - listitem [ref=e412]:
+                      - generic [ref=e413] [cursor=pointer]:
+                        - radio "Green" [ref=e415]
+                        - generic: Green
+                    - listitem [ref=e416]:
+                      - generic [ref=e417] [cursor=pointer]:
+                        - radio "Orange" [ref=e419]
+                        - generic: Orange
+                    - listitem [ref=e420]:
+                      - generic [ref=e421] [cursor=pointer]:
+                        - radio "Purple" [ref=e423]
+                        - generic: Purple
+                - generic [ref=e425]:
+                  - generic [ref=e426]: Size *
+                  - list [ref=e427]:
+                    - listitem [ref=e428]:
+                      - generic [ref=e429] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e430]
+                    - listitem [ref=e431]:
+                      - generic [ref=e432] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e433]
+                    - listitem [ref=e434]:
+                      - generic [ref=e435] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e436]
+                    - listitem [ref=e437]:
+                      - generic [ref=e438] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e439]
+                    - listitem [ref=e440]:
+                      - generic [ref=e441] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e442]
+                - button "Add to cart" [ref=e444] [cursor=pointer]:
+                  - img [ref=e445] [cursor=pointer]
+                  - generic [ref=e447] [cursor=pointer]: Add to cart
+            - generic [ref=e449]:
+              - link "Hera Pullover Hoodie Hera Pullover Hoodie €48.00" [ref=e450]:
+                - /url: http://localhost:8000/hera-pullover-hoodie.html
+                - img "Hera Pullover Hoodie" [ref=e451]
+                - generic [ref=e452]:
+                  - generic [ref=e453]: Hera Pullover Hoodie
+                  - generic [ref=e455]: €48.00
+              - generic [ref=e457]:
+                - generic [ref=e459]:
+                  - generic [ref=e460]: Color *
+                  - list [ref=e461]:
+                    - listitem [ref=e462]:
+                      - generic [ref=e463] [cursor=pointer]:
+                        - radio "Blue" [ref=e465]
+                        - generic: Blue
+                    - listitem [ref=e466]:
+                      - generic [ref=e467] [cursor=pointer]:
+                        - radio "Green" [ref=e469]
+                        - generic: Green
+                    - listitem [ref=e470]:
+                      - generic [ref=e471] [cursor=pointer]:
+                        - radio "Orange" [ref=e473]
+                        - generic: Orange
+                - generic [ref=e475]:
+                  - generic [ref=e476]: Size *
+                  - list [ref=e477]:
+                    - listitem [ref=e478]:
+                      - generic [ref=e479] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e480]
+                    - listitem [ref=e481]:
+                      - generic [ref=e482] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e483]
+                    - listitem [ref=e484]:
+                      - generic [ref=e485] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e486]
+                    - listitem [ref=e487]:
+                      - generic [ref=e488] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e489]
+                    - listitem [ref=e490]:
+                      - generic [ref=e491] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e492]
+                - button "Add to cart" [ref=e494] [cursor=pointer]:
+                  - img [ref=e495] [cursor=pointer]
+                  - generic [ref=e497] [cursor=pointer]: Add to cart
+            - generic [ref=e499]:
+              - link "Autumn Pullie Autumn Pullie €57.00" [ref=e500]:
+                - /url: http://localhost:8000/autumn-pullie.html
+                - img "Autumn Pullie" [ref=e501]
+                - generic [ref=e502]:
+                  - generic [ref=e503]: Autumn Pullie
+                  - generic [ref=e505]: €57.00
+              - generic [ref=e507]:
+                - generic [ref=e509]:
+                  - generic [ref=e510]: Color *
+                  - list [ref=e511]:
+                    - listitem [ref=e512]:
+                      - generic [ref=e513] [cursor=pointer]:
+                        - radio "Green" [ref=e515]
+                        - generic: Green
+                    - listitem [ref=e516]:
+                      - generic [ref=e517] [cursor=pointer]:
+                        - radio "Purple" [ref=e519]
+                        - generic: Purple
+                    - listitem [ref=e520]:
+                      - generic [ref=e521] [cursor=pointer]:
+                        - radio "Red" [ref=e523]
+                        - generic: Red
+                - generic [ref=e525]:
+                  - generic [ref=e526]: Size *
+                  - list [ref=e527]:
+                    - listitem [ref=e528]:
+                      - generic [ref=e529] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e530]
+                    - listitem [ref=e531]:
+                      - generic [ref=e532] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e533]
+                    - listitem [ref=e534]:
+                      - generic [ref=e535] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e536]
+                    - listitem [ref=e537]:
+                      - generic [ref=e538] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e539]
+                    - listitem [ref=e540]:
+                      - generic [ref=e541] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e542]
+                - button "Add to cart" [ref=e544] [cursor=pointer]:
+                  - img [ref=e545] [cursor=pointer]
+                  - generic [ref=e547] [cursor=pointer]: Add to cart
+            - generic [ref=e549]:
+              - link "Miko Pullover Hoodie Miko Pullover Hoodie €69.00" [ref=e550]:
+                - /url: http://localhost:8000/miko-pullover-hoodie.html
+                - img "Miko Pullover Hoodie" [ref=e551]
+                - generic [ref=e552]:
+                  - generic [ref=e553]: Miko Pullover Hoodie
+                  - generic [ref=e555]: €69.00
+              - generic [ref=e557]:
+                - generic [ref=e559]:
+                  - generic [ref=e560]: Color *
+                  - list [ref=e561]:
+                    - listitem [ref=e562]:
+                      - generic [ref=e563] [cursor=pointer]:
+                        - radio "Blue" [ref=e565]
+                        - generic: Blue
+                    - listitem [ref=e566]:
+                      - generic [ref=e567] [cursor=pointer]:
+                        - radio "Orange" [ref=e569]
+                        - generic: Orange
+                    - listitem [ref=e570]:
+                      - generic [ref=e571] [cursor=pointer]:
+                        - radio "Purple" [ref=e573]
+                        - generic: Purple
+                - generic [ref=e575]:
+                  - generic [ref=e576]: Size *
+                  - list [ref=e577]:
+                    - listitem [ref=e578]:
+                      - generic [ref=e579] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e580]
+                    - listitem [ref=e581]:
+                      - generic [ref=e582] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e583]
+                    - listitem [ref=e584]:
+                      - generic [ref=e585] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e586]
+                    - listitem [ref=e587]:
+                      - generic [ref=e588] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e589]
+                    - listitem [ref=e590]:
+                      - generic [ref=e591] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e592]
+                - button "Add to cart" [ref=e594] [cursor=pointer]:
+                  - img [ref=e595] [cursor=pointer]
+                  - generic [ref=e597] [cursor=pointer]: Add to cart
+            - generic [ref=e599]:
+              - link "Selene Yoga Hoodie Selene Yoga Hoodie €42.00" [ref=e600]:
+                - /url: http://localhost:8000/selene-yoga-hoodie.html
+                - img "Selene Yoga Hoodie" [ref=e601]
+                - generic [ref=e602]:
+                  - generic [ref=e603]: Selene Yoga Hoodie
+                  - generic [ref=e605]: €42.00
+              - generic [ref=e607]:
+                - generic [ref=e609]:
+                  - generic [ref=e610]: Color *
+                  - list [ref=e611]:
+                    - listitem [ref=e612]:
+                      - generic [ref=e613] [cursor=pointer]:
+                        - radio "Orange" [ref=e615]
+                        - generic: Orange
+                    - listitem [ref=e616]:
+                      - generic [ref=e617] [cursor=pointer]:
+                        - radio "Purple" [ref=e619]
+                        - generic: Purple
+                    - listitem [ref=e620]:
+                      - generic [ref=e621] [cursor=pointer]:
+                        - radio "White" [ref=e623]
+                        - generic: White
+                - generic [ref=e625]:
+                  - generic [ref=e626]: Size *
+                  - list [ref=e627]:
+                    - listitem [ref=e628]:
+                      - generic [ref=e629] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e630]
+                    - listitem [ref=e631]:
+                      - generic [ref=e632] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e633]
+                    - listitem [ref=e634]:
+                      - generic [ref=e635] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e636]
+                    - listitem [ref=e637]:
+                      - generic [ref=e638] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e639]
+                    - listitem [ref=e640]:
+                      - generic [ref=e641] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e642]
+                - button "Add to cart" [ref=e644] [cursor=pointer]:
+                  - img [ref=e645] [cursor=pointer]
+                  - generic [ref=e647] [cursor=pointer]: Add to cart
+            - generic [ref=e649]:
+              - link "Daphne Full-Zip Hoodie Daphne Full-Zip Hoodie €59.00" [ref=e650]:
+                - /url: http://localhost:8000/daphne-full-zip-hoodie.html
+                - img "Daphne Full-Zip Hoodie" [ref=e651]
+                - generic [ref=e652]:
+                  - generic [ref=e653]: Daphne Full-Zip Hoodie
+                  - generic [ref=e655]: €59.00
+              - generic [ref=e657]:
+                - generic [ref=e659]:
+                  - generic [ref=e660]: Color *
+                  - list [ref=e661]:
+                    - listitem [ref=e662]:
+                      - generic [ref=e663] [cursor=pointer]:
+                        - radio "Purple" [ref=e665]
+                        - generic: Purple
+                - generic [ref=e667]:
+                  - generic [ref=e668]: Size *
+                  - list [ref=e669]:
+                    - listitem [ref=e670]:
+                      - generic [ref=e671] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e672]
+                    - listitem [ref=e673]:
+                      - generic [ref=e674] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e675]
+                    - listitem [ref=e676]:
+                      - generic [ref=e677] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e678]
+                    - listitem [ref=e679]:
+                      - generic [ref=e680] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e681]
+                    - listitem [ref=e682]:
+                      - generic [ref=e683] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e684]
+                - button "Add to cart" [ref=e686] [cursor=pointer]:
+                  - img [ref=e687] [cursor=pointer]
+                  - generic [ref=e689] [cursor=pointer]: Add to cart
+            - generic [ref=e691]:
+              - link "Phoebe Zipper Sweatshirt Phoebe Zipper Sweatshirt €59.00" [ref=e692]:
+                - /url: http://localhost:8000/phoebe-zipper-sweatshirt.html
+                - img "Phoebe Zipper Sweatshirt" [ref=e693]
+                - generic [ref=e694]:
+                  - generic [ref=e695]: Phoebe Zipper Sweatshirt
+                  - generic [ref=e697]: €59.00
+              - generic [ref=e699]:
+                - generic [ref=e701]:
+                  - generic [ref=e702]: Color *
+                  - list [ref=e703]:
+                    - listitem [ref=e704]:
+                      - generic [ref=e705] [cursor=pointer]:
+                        - radio "Gray" [ref=e707]
+                        - generic: Gray
+                    - listitem [ref=e708]:
+                      - generic [ref=e709] [cursor=pointer]:
+                        - radio "Purple" [ref=e711]
+                        - generic: Purple
+                    - listitem [ref=e712]:
+                      - generic [ref=e713] [cursor=pointer]:
+                        - radio "White" [ref=e715]
+                        - generic: White
+                - generic [ref=e717]:
+                  - generic [ref=e718]: Size *
+                  - list [ref=e719]:
+                    - listitem [ref=e720]:
+                      - generic [ref=e721] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e722]
+                    - listitem [ref=e723]:
+                      - generic [ref=e724] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e725]
+                    - listitem [ref=e726]:
+                      - generic [ref=e727] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e728]
+                    - listitem [ref=e729]:
+                      - generic [ref=e730] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e731]
+                    - listitem [ref=e732]:
+                      - generic [ref=e733] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e734]
+                - button "Add to cart" [ref=e736] [cursor=pointer]:
+                  - img [ref=e737] [cursor=pointer]
+                  - generic [ref=e739] [cursor=pointer]: Add to cart
+            - generic [ref=e741]:
+              - link "Cassia Funnel Sweatshirt Cassia Funnel Sweatshirt €48.00" [ref=e742]:
+                - /url: http://localhost:8000/cassia-funnel-sweatshirt.html
+                - img "Cassia Funnel Sweatshirt" [ref=e743]
+                - generic [ref=e744]:
+                  - generic [ref=e745]: Cassia Funnel Sweatshirt
+                  - generic [ref=e747]: €48.00
+              - generic [ref=e749]:
+                - generic [ref=e751]:
+                  - generic [ref=e752]: Color *
+                  - list [ref=e753]:
+                    - listitem [ref=e754]:
+                      - generic [ref=e755] [cursor=pointer]:
+                        - radio "Orange" [ref=e757]
+                        - generic: Orange
+                    - listitem [ref=e758]:
+                      - generic [ref=e759] [cursor=pointer]:
+                        - radio "Purple" [ref=e761]
+                        - generic: Purple
+                    - listitem [ref=e762]:
+                      - generic [ref=e763] [cursor=pointer]:
+                        - radio "White" [ref=e765]
+                        - generic: White
+                - generic [ref=e767]:
+                  - generic [ref=e768]: Size *
+                  - list [ref=e769]:
+                    - listitem [ref=e770]:
+                      - generic [ref=e771] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e772]
+                    - listitem [ref=e773]:
+                      - generic [ref=e774] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e775]
+                    - listitem [ref=e776]:
+                      - generic [ref=e777] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e778]
+                    - listitem [ref=e779]:
+                      - generic [ref=e780] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e781]
+                    - listitem [ref=e782]:
+                      - generic [ref=e783] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e784]
+                - button "Add to cart" [ref=e786] [cursor=pointer]:
+                  - img [ref=e787] [cursor=pointer]
+                  - generic [ref=e789] [cursor=pointer]: Add to cart
+            - generic [ref=e791]:
+              - link "Ariel Roll Sleeve Sweatshirt Ariel Roll Sleeve Sweatshirt €39.00" [ref=e792]:
+                - /url: http://localhost:8000/ariel-roll-sleeve-sweatshirt.html
+                - img "Ariel Roll Sleeve Sweatshirt" [ref=e793]
+                - generic [ref=e794]:
+                  - generic [ref=e795]: Ariel Roll Sleeve Sweatshirt
+                  - generic [ref=e797]: €39.00
+              - generic [ref=e799]:
+                - generic [ref=e801]:
+                  - generic [ref=e802]: Color *
+                  - list [ref=e803]:
+                    - listitem [ref=e804]:
+                      - generic [ref=e805] [cursor=pointer]:
+                        - radio "Green" [ref=e807]
+                        - generic: Green
+                    - listitem [ref=e808]:
+                      - generic [ref=e809] [cursor=pointer]:
+                        - radio "Purple" [ref=e811]
+                        - generic: Purple
+                    - listitem [ref=e812]:
+                      - generic [ref=e813] [cursor=pointer]:
+                        - radio "Red" [ref=e815]
+                        - generic: Red
+                - generic [ref=e817]:
+                  - generic [ref=e818]: Size *
+                  - list [ref=e819]:
+                    - listitem [ref=e820]:
+                      - generic [ref=e821] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e822]
+                    - listitem [ref=e823]:
+                      - generic [ref=e824] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e825]
+                    - listitem [ref=e826]:
+                      - generic [ref=e827] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e828]
+                    - listitem [ref=e829]:
+                      - generic [ref=e830] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e831]
+                    - listitem [ref=e832]:
+                      - generic [ref=e833] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e834]
+                - button "Add to cart" [ref=e836] [cursor=pointer]:
+                  - img [ref=e837] [cursor=pointer]
+                  - generic [ref=e839] [cursor=pointer]: Add to cart
+            - generic [ref=e841]:
+              - link "Helena Hooded Fleece Helena Hooded Fleece €55.00" [ref=e842]:
+                - /url: http://localhost:8000/helena-hooded-fleece.html
+                - img "Helena Hooded Fleece" [ref=e843]
+                - generic [ref=e844]:
+                  - generic [ref=e845]: Helena Hooded Fleece
+                  - generic [ref=e847]: €55.00
+              - generic [ref=e849]:
+                - generic [ref=e851]:
+                  - generic [ref=e852]: Color *
+                  - list [ref=e853]:
+                    - listitem [ref=e854]:
+                      - generic [ref=e855] [cursor=pointer]:
+                        - radio "Blue" [ref=e857]
+                        - generic: Blue
+                    - listitem [ref=e858]:
+                      - generic [ref=e859] [cursor=pointer]:
+                        - radio "Gray" [ref=e861]
+                        - generic: Gray
+                    - listitem [ref=e862]:
+                      - generic [ref=e863] [cursor=pointer]:
+                        - radio "Yellow" [ref=e865]
+                        - generic: Yellow
+                - generic [ref=e867]:
+                  - generic [ref=e868]: Size *
+                  - list [ref=e869]:
+                    - listitem [ref=e870]:
+                      - generic [ref=e871] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e872]
+                    - listitem [ref=e873]:
+                      - generic [ref=e874] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e875]
+                    - listitem [ref=e876]:
+                      - generic [ref=e877] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e878]
+                    - listitem [ref=e879]:
+                      - generic [ref=e880] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e881]
+                    - listitem [ref=e882]:
+                      - generic [ref=e883] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e884]
+                - button "Add to cart" [ref=e886] [cursor=pointer]:
+                  - img [ref=e887] [cursor=pointer]
+                  - generic [ref=e889] [cursor=pointer]: Add to cart
+            - generic [ref=e891]:
+              - link "Eos V-Neck Hoodie Eos V-Neck Hoodie €54.00" [ref=e892]:
+                - /url: http://localhost:8000/eos-v-neck-hoodie.html
+                - img "Eos V-Neck Hoodie" [ref=e893]
+                - generic [ref=e894]:
+                  - generic [ref=e895]: Eos V-Neck Hoodie
+                  - generic [ref=e897]: €54.00
+              - generic [ref=e899]:
+                - generic [ref=e901]:
+                  - generic [ref=e902]: Color *
+                  - list [ref=e903]:
+                    - listitem [ref=e904]:
+                      - generic [ref=e905] [cursor=pointer]:
+                        - radio "Blue" [ref=e907]
+                        - generic: Blue
+                    - listitem [ref=e908]:
+                      - generic [ref=e909] [cursor=pointer]:
+                        - radio "Green" [ref=e911]
+                        - generic: Green
+                    - listitem [ref=e912]:
+                      - generic [ref=e913] [cursor=pointer]:
+                        - radio "Orange" [ref=e915]
+                        - generic: Orange
+                - generic [ref=e917]:
+                  - generic [ref=e918]: Size *
+                  - list [ref=e919]:
+                    - listitem [ref=e920]:
+                      - generic [ref=e921] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e922]
+                    - listitem [ref=e923]:
+                      - generic [ref=e924] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e925]
+                    - listitem [ref=e926]:
+                      - generic [ref=e927] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e928]
+                    - listitem [ref=e929]:
+                      - generic [ref=e930] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e931]
+                    - listitem [ref=e932]:
+                      - generic [ref=e933] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e934]
+                - button "Add to cart" [ref=e936] [cursor=pointer]:
+                  - img [ref=e937] [cursor=pointer]
+                  - generic [ref=e939] [cursor=pointer]: Add to cart
+            - generic [ref=e941]:
+              - link "Circe Hooded Ice Fleece Circe Hooded Ice Fleece €68.00" [ref=e942]:
+                - /url: http://localhost:8000/circe-hooded-ice-fleece.html
+                - img "Circe Hooded Ice Fleece" [ref=e943]
+                - generic [ref=e944]:
+                  - generic [ref=e945]: Circe Hooded Ice Fleece
+                  - generic [ref=e947]: €68.00
+              - generic [ref=e949]:
+                - generic [ref=e951]:
+                  - generic [ref=e952]: Color *
+                  - list [ref=e953]:
+                    - listitem [ref=e954]:
+                      - generic [ref=e955] [cursor=pointer]:
+                        - radio "Gray" [ref=e957]
+                        - generic: Gray
+                    - listitem [ref=e958]:
+                      - generic [ref=e959] [cursor=pointer]:
+                        - radio "Green" [ref=e961]
+                        - generic: Green
+                    - listitem [ref=e962]:
+                      - generic [ref=e963] [cursor=pointer]:
+                        - radio "Purple" [ref=e965]
+                        - generic: Purple
+                - generic [ref=e967]:
+                  - generic [ref=e968]: Size *
+                  - list [ref=e969]:
+                    - listitem [ref=e970]:
+                      - generic [ref=e971] [cursor=pointer]:
+                        - text: XS
+                        - radio "XS" [ref=e972]
+                    - listitem [ref=e973]:
+                      - generic [ref=e974] [cursor=pointer]:
+                        - text: S
+                        - radio "S" [ref=e975]
+                    - listitem [ref=e976]:
+                      - generic [ref=e977] [cursor=pointer]:
+                        - text: M
+                        - radio "M" [ref=e978]
+                    - listitem [ref=e979]:
+                      - generic [ref=e980] [cursor=pointer]:
+                        - text: L
+                        - radio "L" [ref=e981]
+                    - listitem [ref=e982]:
+                      - generic [ref=e983] [cursor=pointer]:
+                        - text: XL
+                        - radio "XL" [ref=e984]
+                - button "Add to cart" [ref=e986] [cursor=pointer]:
+                  - img [ref=e987] [cursor=pointer]
+                  - generic [ref=e989] [cursor=pointer]: Add to cart
+          - list [ref=e991]:
+            - listitem [ref=e992]:
+              - button "Page 1" [ref=e993] [cursor=pointer]: "1"
+            - listitem [ref=e994]:
+              - button "Page 2" [ref=e995] [cursor=pointer]: "2"
+            - listitem [ref=e996]:
+              - button "Page 3" [ref=e997] [cursor=pointer]: "3"
+            - listitem [ref=e998]: ...
+            - listitem [ref=e999]:
+              - button "Last Page" [ref=e1000] [cursor=pointer]: "5"
+            - listitem [ref=e1001]:
+              - button "Next Page" [ref=e1002] [cursor=pointer]:
+                - generic [ref=e1003] [cursor=pointer]: Next
+                - img [ref=e1004] [cursor=pointer]
+  - contentinfo [ref=e1006]:
+    - generic [ref=e1007]:
+      - generic [ref=e1008]:
+        - navigation [ref=e1009]:
+          - list [ref=e1010]:
+            - listitem [ref=e1011]:
+              - strong [ref=e1012]: Catalog
+            - listitem [ref=e1013]:
+              - link "What's New" [ref=e1014]:
+                - /url: /what-is-new.html
+            - listitem [ref=e1015]:
+              - link "Women" [ref=e1016]:
+                - /url: /women.html
+            - listitem [ref=e1017]:
+              - link "Men" [ref=e1018]:
+                - /url: /men.html
+            - listitem [ref=e1019]:
+              - link "Gear" [ref=e1020]:
+                - /url: /gear.html
+            - listitem [ref=e1021]:
+              - link "Training" [ref=e1022]:
+                - /url: /training.html
+            - listitem [ref=e1023]:
+              - link "Sale" [ref=e1024]:
+                - /url: /sale.html
+          - list [ref=e1025]:
+            - listitem [ref=e1026]:
+              - strong [ref=e1027]: Support
+            - listitem [ref=e1028]:
+              - link "Customer Service" [ref=e1029]:
+                - /url: /customer-service.html
+            - listitem [ref=e1030]:
+              - link "Documentation" [ref=e1031]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e1032]:
+              - link "FAQ" [ref=e1033]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e1034]:
+            - listitem [ref=e1035]:
+              - strong [ref=e1036]: Legal
+            - listitem [ref=e1037]:
+              - link "Privacy" [ref=e1038]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e1039]:
+              - link "Cookies" [ref=e1040]:
+                - /url: /enable-cookies
+          - list [ref=e1041]:
+            - listitem [ref=e1042]:
+              - strong [ref=e1043]: Rapidez
+            - listitem [ref=e1044]:
+              - link "Website" [ref=e1045]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e1046]:
+              - link "GitHub" [ref=e1047]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e1048]:
+          - strong [ref=e1049]: Want product news and updates?
+          - paragraph [ref=e1050]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e1054]:
+            - generic [ref=e1055]:
+              - textbox "Enter your email" [ref=e1056]
+              - button "Subscribe" [ref=e1058] [cursor=pointer]
+            - paragraph [ref=e1059]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e1060]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e1061]:
+        - generic [ref=e1062]:
+          - link "GitHub" [ref=e1063]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e1064]: GitHub
+            - img [ref=e1065]
+          - link "X" [ref=e1067]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e1068]: X
+            - img [ref=e1069]
+          - link "Slack" [ref=e1071]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e1072]: Slack
+            - img [ref=e1073]
+        - paragraph [ref=e1076]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```
