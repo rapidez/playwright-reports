@@ -1,0 +1,222 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14] [cursor=pointer]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - link "Login" [ref=e30] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+          - img [ref=e31] [cursor=pointer]
+        - link "Cart" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34] [cursor=pointer]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42] [cursor=pointer]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44] [cursor=pointer]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46] [cursor=pointer]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48] [cursor=pointer]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Home" [ref=e53] [cursor=pointer]:
+            - /url: http://localhost:8000
+            - generic [ref=e54] [cursor=pointer]: Home
+          - img [ref=e55]
+        - listitem [ref=e57]:
+          - generic [ref=e58]: Stellar Solar Jacket
+      - generic [ref=e60]:
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - link "Stellar Solar Jacket" [ref=e66]:
+              - /url: http://localhost:1234/media/catalog/product/w/j/wj01-red_main_1.jpg
+              - img "Stellar Solar Jacket" [ref=e67]
+            - button "Next" [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+          - generic [ref=e71]:
+            - button "Stellar Solar Jacket" [ref=e72] [cursor=pointer]:
+              - img "Stellar Solar Jacket" [ref=e73] [cursor=pointer]
+            - button "Stellar Solar Jacket" [ref=e74] [cursor=pointer]:
+              - img "Stellar Solar Jacket" [ref=e75] [cursor=pointer]
+            - button "Stellar Solar Jacket" [ref=e76] [cursor=pointer]:
+              - img "Stellar Solar Jacket" [ref=e77] [cursor=pointer]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Stellar Solar Jacket" [level=1] [ref=e80]
+            - generic [ref=e81]:
+              - generic [ref=e82]: Color *
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - generic [ref=e85] [cursor=pointer]:
+                    - radio "Blue" [ref=e87]
+                    - generic: Blue
+                - listitem [ref=e88]:
+                  - generic [ref=e89] [cursor=pointer]:
+                    - radio "Red" [ref=e91]
+                    - generic: Red
+                - listitem [ref=e92]:
+                  - generic [ref=e93] [cursor=pointer]:
+                    - radio "Yellow" [ref=e95]
+                    - generic: Yellow
+            - generic [ref=e96]:
+              - generic [ref=e97]: Size *
+              - list [ref=e98]:
+                - listitem [ref=e99]:
+                  - generic [ref=e100] [cursor=pointer]:
+                    - text: S
+                    - radio "S" [ref=e101]
+                - listitem [ref=e102]:
+                  - generic [ref=e103] [cursor=pointer]:
+                    - text: M
+                    - radio "M" [ref=e104]
+                - listitem [ref=e105]:
+                  - generic [ref=e106] [cursor=pointer]:
+                    - text: L
+                    - radio "L" [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e110]: €75.00
+              - generic [ref=e111]:
+                - button "Decrease" [disabled] [ref=e112]:
+                  - img [ref=e113]
+                - spinbutton "Quantity" [ref=e114]: "1"
+                - button "Increase" [ref=e115] [cursor=pointer]:
+                  - img [ref=e116] [cursor=pointer]
+              - button "Add to cart" [ref=e118] [cursor=pointer]:
+                - img [ref=e119] [cursor=pointer]
+                - generic [ref=e121] [cursor=pointer]: Add to cart
+          - generic [ref=e122]:
+            - generic [ref=e123]: Description
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: "Beat the heat and protect yourself from sunrays with the Stellar Solar Jacket. It's loaded with all the engineered features you need for an intense, safe outdoor workout: 100% UV protection, a breathable perforated construction, and advanced moisture-wicking technology."
+              - paragraph [ref=e126]:
+                - text: • Loose fit.
+                - text: • Reflectivity.
+                - text: • Flat seams.
+                - text: • Machine wash/dry.
+                - text: • Deep pink jacket with front panel rouching
+          - generic [ref=e127]:
+            - generic [ref=e128]: Specifications
+            - generic [ref=e129]:
+              - term [ref=e130]: ID
+              - definition [ref=e131]: "1220"
+              - term [ref=e132]: SKU
+              - definition [ref=e133]: WJ01
+              - term [ref=e134]: Material
+              - definition [ref=e135]: Cocona® performance fabric, Wool, Fleece
+              - term [ref=e136]: Style
+              - definition [ref=e137]: Jacket, Hooded, Soft Shell, Full Zip
+              - term [ref=e138]: Pattern
+              - definition [ref=e139]: Solid
+              - term [ref=e140]: Climate
+              - definition [ref=e141]: All-Weather, Mild, Spring, Windy
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - navigation [ref=e147]:
+          - list [ref=e148]:
+            - listitem [ref=e149]:
+              - strong [ref=e150]: Catalog
+            - listitem [ref=e151]:
+              - link "What's New" [ref=e152] [cursor=pointer]:
+                - /url: /what-is-new.html
+            - listitem [ref=e153]:
+              - link "Women" [ref=e154] [cursor=pointer]:
+                - /url: /women.html
+            - listitem [ref=e155]:
+              - link "Men" [ref=e156] [cursor=pointer]:
+                - /url: /men.html
+            - listitem [ref=e157]:
+              - link "Gear" [ref=e158] [cursor=pointer]:
+                - /url: /gear.html
+            - listitem [ref=e159]:
+              - link "Training" [ref=e160] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e161]:
+              - link "Sale" [ref=e162] [cursor=pointer]:
+                - /url: /sale.html
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - strong [ref=e165]: Support
+            - listitem [ref=e166]:
+              - link "Customer Service" [ref=e167] [cursor=pointer]:
+                - /url: /customer-service.html
+            - listitem [ref=e168]:
+              - link "Documentation" [ref=e169] [cursor=pointer]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e170]:
+              - link "FAQ" [ref=e171] [cursor=pointer]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - strong [ref=e174]: Legal
+            - listitem [ref=e175]:
+              - link "Privacy" [ref=e176] [cursor=pointer]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e177]:
+              - link "Cookies" [ref=e178] [cursor=pointer]:
+                - /url: /enable-cookies
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - strong [ref=e181]: Rapidez
+            - listitem [ref=e182]:
+              - link "Website" [ref=e183] [cursor=pointer]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e184]:
+              - link "GitHub" [ref=e185] [cursor=pointer]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e186]:
+          - strong [ref=e187]: Want product news and updates?
+          - paragraph [ref=e188]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - textbox "Enter your email" [ref=e194]
+              - button "Subscribe" [ref=e196] [cursor=pointer]
+            - paragraph [ref=e197]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e198] [cursor=pointer]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - link "GitHub" [ref=e201] [cursor=pointer]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e202] [cursor=pointer]: GitHub
+            - img [ref=e203] [cursor=pointer]
+          - link "X" [ref=e205] [cursor=pointer]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e206] [cursor=pointer]: X
+            - img [ref=e207] [cursor=pointer]
+          - link "Slack" [ref=e209] [cursor=pointer]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e210] [cursor=pointer]: Slack
+            - img [ref=e211] [cursor=pointer]
+        - paragraph [ref=e214]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```

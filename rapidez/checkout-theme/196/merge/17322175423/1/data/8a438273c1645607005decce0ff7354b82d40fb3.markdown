@@ -1,0 +1,193 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - link "Go to home" [ref=e12]:
+        - /url: http://localhost:8000
+        - img "Rapidez logo" [ref=e14]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - combobox "What are you looking for?" [active] [ref=e22]: Wayfarer Messenger Bag
+          - button "Clear the search query" [ref=e23] [cursor=pointer]:
+            - img [ref=e24] [cursor=pointer]
+          - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+            - generic:
+              - img
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Categories
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - link "Gear > Bags" [ref=e34]:
+                  - /url: /gear/bags.html
+                  - generic [ref=e35]: Gear
+                  - generic [ref=e36]: ">"
+                  - mark [ref=e38]: Bags
+          - generic [ref=e40]:
+            - generic [ref=e41]: Products
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Wayfarer Messenger Bag Wayfarer Messenger Bag €45.00" [ref=e44]:
+                  - /url: http://localhost:8000/wayfarer-messenger-bag.html
+                  - img "Wayfarer Messenger Bag" [ref=e45]
+                  - generic [ref=e46]:
+                    - mark [ref=e48]: Wayfarer Messenger Bag
+                    - generic [ref=e50]: €45.00
+              - listitem [ref=e51]:
+                - link "Push It Messenger Bag Push It Messenger Bag €45.00" [ref=e52]:
+                  - /url: http://localhost:8000/push-it-messenger-bag.html
+                  - img "Push It Messenger Bag" [ref=e53]
+                  - generic [ref=e54]:
+                    - generic [ref=e55]:
+                      - text: Push It
+                      - mark [ref=e56]: Messenger
+                      - mark [ref=e57]: Bag
+                    - generic [ref=e59]: €45.00
+              - listitem [ref=e60]:
+                - link "Rival Field Messenger Rival Field Messenger €45.00" [ref=e61]:
+                  - /url: http://localhost:8000/rival-field-messenger.html
+                  - img "Rival Field Messenger" [ref=e62]
+                  - generic [ref=e63]:
+                    - generic [ref=e64]:
+                      - text: Rival Field
+                      - mark [ref=e65]: Messenger
+                    - generic [ref=e67]: €45.00
+          - button "View all products" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71] [cursor=pointer]: View all products
+      - generic [ref=e73]:
+        - link "Login" [ref=e76]:
+          - /url: http://localhost:8000/login
+          - img [ref=e77]
+        - link "Cart" [ref=e79]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e80]
+      - navigation "Main menu" [ref=e82]:
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - link "What's New" [ref=e86]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e87]:
+            - link "Women" [ref=e88]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e89]:
+            - link "Men" [ref=e90]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e91]:
+            - link "Gear" [ref=e92]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e93]:
+            - link "Training" [ref=e94]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e95]:
+            - link "Sale" [ref=e96]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e97]:
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - link "New Luma Yoga Collection Get fit and look fab in new seasonal styles Shop New Yoga" [ref=e100]:
+          - /url: /collections/yoga-new.html
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: New Luma Yoga Collection
+              - paragraph [ref=e105]: Get fit and look fab in new seasonal styles
+            - generic [ref=e106]: Shop New Yoga
+        - link "Men Tops Collection Find conscientious, comfy clothing Shop Men Tops" [ref=e107]:
+          - /url: /men/tops-men.html
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - paragraph [ref=e111]: Men Tops Collection
+              - paragraph [ref=e112]: Find conscientious, comfy clothing
+            - generic [ref=e113]: Shop Men Tops
+        - link "Even more ways to mix and match Buy 3 Luma tees get a 4th free Shop Tees" [ref=e114]:
+          - /url: /promotions/tees-all.html
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: Even more ways to mix and match
+              - paragraph [ref=e119]: Buy 3 Luma tees get a 4th free
+            - generic [ref=e120]: Shop Tees
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: Built with / supported by
+        - generic [ref=e123]:
+          - img "Laravel" [ref=e125]
+          - img "Vue" [ref=e127]
+          - img "Tailwind CSS" [ref=e129]
+          - img "InstantSearch" [ref=e131]
+          - img "JustBetter" [ref=e133]
+          - img "Magento" [ref=e135]
+  - contentinfo [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - navigation [ref=e139]:
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - strong [ref=e142]: Catalog
+            - listitem [ref=e143]:
+              - link "What's New" [ref=e144]:
+                - /url: /what-is-new.html
+            - listitem [ref=e145]:
+              - link "Women" [ref=e146]:
+                - /url: /women.html
+            - listitem [ref=e147]:
+              - link "Men" [ref=e148]:
+                - /url: /men.html
+            - listitem [ref=e149]:
+              - link "Gear" [ref=e150]:
+                - /url: /gear.html
+            - listitem [ref=e151]:
+              - link "Training" [ref=e152]:
+                - /url: /training.html
+            - listitem [ref=e153]:
+              - link "Sale" [ref=e154]:
+                - /url: /sale.html
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - strong [ref=e157]: Support
+            - listitem [ref=e158]:
+              - link "Customer Service" [ref=e159]:
+                - /url: /customer-service.html
+            - listitem [ref=e160]:
+              - link "Documentation" [ref=e161]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e162]:
+              - link "FAQ" [ref=e163]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - strong [ref=e166]: Legal
+            - listitem [ref=e167]:
+              - link "Privacy" [ref=e168]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e169]:
+              - link "Cookies" [ref=e170]:
+                - /url: /enable-cookies
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - strong [ref=e173]: Rapidez
+            - listitem [ref=e174]:
+              - link "Website" [ref=e175]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e176]:
+              - link "GitHub" [ref=e177]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e178]:
+          - strong [ref=e179]: Want product news and updates?
+          - paragraph [ref=e180]: Sign up for our newsletter to stay up to date.
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - link "GitHub" [ref=e185]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e186]: GitHub
+            - img [ref=e187]
+          - link "X" [ref=e189]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e190]: X
+            - img [ref=e191]
+          - link "Slack" [ref=e193]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e194]: Slack
+            - img [ref=e195]
+        - paragraph [ref=e198]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```
