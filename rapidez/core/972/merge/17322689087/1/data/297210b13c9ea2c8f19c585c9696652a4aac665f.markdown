@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - link "Go to home" [ref=e13] [cursor=pointer]:
+      - /url: /
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - navigation [ref=e17]:
+        - generic [ref=e18]:
+          - link "1" [ref=e20] [cursor=pointer]:
+            - /url: http://localhost:8000/checkout/login
+          - generic [ref=e21]: Login
+        - generic [ref=e22]:
+          - link "2" [ref=e24] [cursor=pointer]:
+            - /url: http://localhost:8000/checkout/credentials
+          - generic [ref=e25]: Credentials
+        - generic [ref=e26]:
+          - link "3":
+            - /url: http://localhost:8000/checkout/payment
+          - generic [ref=e27]: Payment
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e32] [cursor=pointer]:
+            - radio "Check / Money order" [checked] [active] [ref=e33] [cursor=pointer]
+            - generic [ref=e34] [cursor=pointer]:
+              - generic [ref=e35] [cursor=pointer]: Check / Money order
+              - img [ref=e36] [cursor=pointer]
+          - group [ref=e37]:
+            - button "Place order" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - generic [ref=e42]:
+            - term [ref=e43]:
+              - generic [ref=e44]:
+                - img "Wayfarer Messenger Bag" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: Wayfarer Messenger Bag
+                  - generic [ref=e51]: 1x
+            - definition [ref=e52]: €45.00
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - term [ref=e55]: Subtotal
+              - definition [ref=e56]: €45.00
+            - generic [ref=e57]:
+              - term [ref=e58]:
+                - text: Shipping
+                - generic [ref=e59]: Flat Rate - Fixed
+              - definition [ref=e60]: €5.00
+            - generic [ref=e61]:
+              - term [ref=e62]: Total
+              - definition [ref=e63]: €50.00
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: Shipping & billing address
+            - list [ref=e66]:
+              - listitem [ref=e67]: Bruce Wayne
+              - listitem [ref=e68]: Mountain Drive 1007
+              - listitem [ref=e69]: 72000 - Gotham - NL
+              - listitem [ref=e70]: 530-7972
+  - contentinfo [ref=e71]:
+    - paragraph [ref=e75]: © 2025 Rapidez. All rights reserved.
+```

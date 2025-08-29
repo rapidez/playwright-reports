@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - link "Go to home" [ref=e13]:
+      - /url: /
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - navigation [ref=e17]:
+        - generic [ref=e18]:
+          - link "1" [ref=e20]:
+            - /url: http://localhost:8000/checkout/login
+          - generic [ref=e21]: Login
+        - generic [ref=e22]:
+          - link "2":
+            - /url: http://localhost:8000/checkout/credentials
+          - generic [ref=e24]: Credentials
+        - generic [ref=e25]:
+          - link "3":
+            - /url: http://localhost:8000/checkout/payment
+          - generic [ref=e26]: Payment
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - heading "Shipping address" [level=2] [ref=e31]
+          - group [ref=e32]:
+            - combobox [ref=e36]:
+              - option "Bruce Wayne - Mountain Drive 1007 - 72000 - Gotham - NL" [selected]
+              - option "New address"
+          - heading "Billing address" [level=2] [ref=e37]
+          - group [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - checkbox "My billing and shipping address are the same" [checked] [ref=e40] [cursor=pointer]
+              - text: My billing and shipping address are the same
+          - heading "Shipping method" [level=2] [ref=e41]
+          - group [ref=e42]:
+            - generic [ref=e43] [cursor=pointer]:
+              - radio "Fixed - €5.00" [ref=e44] [cursor=pointer]
+              - generic [ref=e45] [cursor=pointer]: Fixed
+              - generic [ref=e46] [cursor=pointer]: "- €5.00"
+          - button "Next" [ref=e47] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e51]:
+            - term [ref=e52]:
+              - generic [ref=e53]:
+                - img "Wayfarer Messenger Bag" [ref=e55]
+                - generic [ref=e56]:
+                  - generic [ref=e57]: Wayfarer Messenger Bag
+                  - generic [ref=e60]: 1x
+            - definition [ref=e61]: €45.00
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - term [ref=e64]: Subtotal
+              - definition [ref=e65]: €45.00
+            - generic [ref=e66]:
+              - term [ref=e67]: Total
+              - definition [ref=e68]: €45.00
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: Shipping & billing address
+            - list [ref=e71]:
+              - listitem [ref=e72]: Bruce Wayne
+              - listitem [ref=e73]: Mountain Drive 1007
+              - listitem [ref=e74]: 72000 - Gotham - NL
+              - listitem [ref=e75]: 530-7972
+  - contentinfo [ref=e76]:
+    - paragraph [ref=e80]: © 2025 Rapidez. All rights reserved.
+```
