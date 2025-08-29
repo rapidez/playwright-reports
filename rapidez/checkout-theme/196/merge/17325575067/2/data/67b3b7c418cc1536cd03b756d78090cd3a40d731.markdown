@@ -1,0 +1,193 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - link "Go to home" [ref=e12]:
+        - /url: http://localhost:8000
+        - img "Rapidez logo" [ref=e14]
+      - generic [ref=e18]:
+        - searchbox "What are you looking for?" [ref=e19]
+        - button "Clear the search query" [ref=e20] [cursor=pointer]:
+          - img [ref=e21] [cursor=pointer]
+        - button "@lang('Search')" [ref=e23] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e24]:
+        - link "Login" [ref=e27]:
+          - /url: http://localhost:8000/login
+          - img [ref=e28]
+        - button "1" [ref=e31] [cursor=pointer]:
+          - img [ref=e32] [cursor=pointer]
+          - generic [ref=e35] [cursor=pointer]: "1"
+      - navigation "Main menu" [ref=e36]:
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - link "What's New" [ref=e40]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e41]:
+            - link "Women" [ref=e42]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e43]:
+            - link "Men" [ref=e44]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e45]:
+            - link "Gear" [ref=e46]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e47]:
+            - link "Training" [ref=e48]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e49]:
+            - link "Sale" [ref=e50]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e51]:
+    - generic [ref=e52]:
+      - heading "Cart" [level=1] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - table [ref=e57]:
+              - rowgroup [ref=e58]:
+                - row "Wayfarer Messenger Bag Wayfarer Messenger Bag Remove €45.00 Decrease 1 Increase €45.00" [ref=e59]:
+                  - cell "Wayfarer Messenger Bag" [ref=e60]:
+                    - link "Wayfarer Messenger Bag" [ref=e61]:
+                      - /url: wayfarer-messenger-bag.html
+                      - img "Wayfarer Messenger Bag" [ref=e62]
+                  - cell "Wayfarer Messenger Bag Remove" [ref=e63]:
+                    - generic [ref=e64]:
+                      - link "Wayfarer Messenger Bag" [ref=e65]:
+                        - /url: wayfarer-messenger-bag.html
+                      - button "Remove" [ref=e67] [cursor=pointer]
+                  - cell "€45.00 Decrease 1 Increase €45.00" [ref=e68]:
+                    - generic [ref=e69]:
+                      - generic [ref=e70]: €45.00
+                      - generic [ref=e71]:
+                        - generic [ref=e72]:
+                          - button "Decrease" [ref=e73] [cursor=pointer]:
+                            - img [ref=e74] [cursor=pointer]
+                          - spinbutton "Quantity" [ref=e75]: "1"
+                          - button "Increase" [ref=e76] [cursor=pointer]:
+                            - img [ref=e77] [cursor=pointer]
+                        - generic [ref=e79]: €45.00
+            - generic [ref=e81]:
+              - strong [ref=e82]: Apply coupon code
+              - generic [ref=e83]:
+                - textbox "Coupon code" [ref=e84]
+                - button "Apply" [ref=e85] [cursor=pointer]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - term [ref=e89]: Subtotal
+                - definition [ref=e90]: €45.00
+              - generic [ref=e91]:
+                - term [ref=e92]: Total
+                - definition [ref=e93]: €45.00
+            - link "Checkout" [ref=e95] [cursor=pointer]:
+              - /url: http://localhost:8000/checkout
+        - generic [ref=e101]:
+          - strong [ref=e102]: More choices to go with your product
+          - generic [ref=e105]:
+            - generic [ref=e107]:
+              - link "Zing Jump Rope Zing Jump Rope €12.00" [ref=e108]:
+                - /url: http://localhost:8000/zing-jump-rope.html
+                - img "Zing Jump Rope" [ref=e109]
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Zing Jump Rope
+                  - generic [ref=e113]: €12.00
+              - button "Add to cart" [ref=e117] [cursor=pointer]:
+                - img [ref=e118] [cursor=pointer]
+                - generic [ref=e120] [cursor=pointer]: Add to cart
+            - generic [ref=e122]:
+              - link "Sprite Foam Roller Sprite Foam Roller €19.00" [ref=e123]:
+                - /url: http://localhost:8000/sprite-foam-roller.html
+                - img "Sprite Foam Roller" [ref=e124]
+                - generic [ref=e125]:
+                  - generic [ref=e126]: Sprite Foam Roller
+                  - generic [ref=e128]: €19.00
+              - button "Add to cart" [ref=e132] [cursor=pointer]:
+                - img [ref=e133] [cursor=pointer]
+                - generic [ref=e135] [cursor=pointer]: Add to cart
+  - contentinfo [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - navigation [ref=e139]:
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - strong [ref=e142]: Catalog
+            - listitem [ref=e143]:
+              - link "What's New" [ref=e144]:
+                - /url: /what-is-new.html
+            - listitem [ref=e145]:
+              - link "Women" [ref=e146]:
+                - /url: /women.html
+            - listitem [ref=e147]:
+              - link "Men" [ref=e148]:
+                - /url: /men.html
+            - listitem [ref=e149]:
+              - link "Gear" [ref=e150]:
+                - /url: /gear.html
+            - listitem [ref=e151]:
+              - link "Training" [ref=e152]:
+                - /url: /training.html
+            - listitem [ref=e153]:
+              - link "Sale" [ref=e154]:
+                - /url: /sale.html
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - strong [ref=e157]: Support
+            - listitem [ref=e158]:
+              - link "Customer Service" [ref=e159]:
+                - /url: /customer-service.html
+            - listitem [ref=e160]:
+              - link "Documentation" [ref=e161]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e162]:
+              - link "FAQ" [ref=e163]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - strong [ref=e166]: Legal
+            - listitem [ref=e167]:
+              - link "Privacy" [ref=e168]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e169]:
+              - link "Cookies" [ref=e170]:
+                - /url: /enable-cookies
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - strong [ref=e173]: Rapidez
+            - listitem [ref=e174]:
+              - link "Website" [ref=e175]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e176]:
+              - link "GitHub" [ref=e177]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e178]:
+          - strong [ref=e179]: Want product news and updates?
+          - paragraph [ref=e180]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - textbox "Enter your email" [ref=e186]
+              - button "Subscribe" [ref=e188] [cursor=pointer]
+            - paragraph [ref=e189]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e190]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - link "GitHub" [ref=e193]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e194]: GitHub
+            - img [ref=e195]
+          - link "X" [ref=e197]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e198]: X
+            - img [ref=e199]
+          - link "Slack" [ref=e201]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e202]: Slack
+            - img [ref=e203]
+        - paragraph [ref=e206]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```
