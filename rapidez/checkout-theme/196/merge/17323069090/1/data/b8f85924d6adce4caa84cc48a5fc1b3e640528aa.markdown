@@ -1,0 +1,180 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14] [cursor=pointer]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - link "Login" [ref=e30] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+          - img [ref=e31] [cursor=pointer]
+        - link "Cart" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34] [cursor=pointer]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42] [cursor=pointer]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44] [cursor=pointer]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46] [cursor=pointer]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48] [cursor=pointer]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Home" [ref=e53] [cursor=pointer]:
+            - /url: http://localhost:8000
+            - generic [ref=e54] [cursor=pointer]: Home
+          - img [ref=e55]
+        - listitem [ref=e57]:
+          - generic [ref=e58]: Wayfarer Messenger Bag
+      - generic [ref=e60]:
+        - link "Wayfarer Messenger Bag" [ref=e66]:
+          - /url: http://localhost:1234/media/catalog/product/m/b/mb05-black-0.jpg
+          - img "Wayfarer Messenger Bag" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "Wayfarer Messenger Bag" [level=1] [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e73]: €45.00
+              - generic [ref=e74]:
+                - button "Decrease" [disabled] [ref=e75]:
+                  - img [ref=e76]
+                - spinbutton "Quantity" [ref=e77]: "1"
+                - button "Increase" [ref=e78] [cursor=pointer]:
+                  - img [ref=e79] [cursor=pointer]
+              - button "Add to cart" [ref=e81] [cursor=pointer]:
+                - img [ref=e82] [cursor=pointer]
+                - generic [ref=e84] [cursor=pointer]: Add to cart
+          - generic [ref=e85]:
+            - generic [ref=e86]: Description
+            - generic [ref=e87]:
+              - paragraph [ref=e88]: Perfect for class, work or the gym, the Wayfarer Messenger Bag is packed with pockets. The dual-buckle flap closure reveals an organizational panel, and the roomy main compartment has spaces for your laptop and a change of clothes. An adjustable shoulder strap and easy-grip handle promise easy carrying.
+              - list [ref=e89]:
+                - listitem [ref=e90]: Multiple internal zip pockets.
+                - listitem [ref=e91]: Made of durable nylon.
+          - generic [ref=e92]:
+            - generic [ref=e93]: Specifications
+            - generic [ref=e94]:
+              - term [ref=e95]: ID
+              - definition [ref=e96]: "4"
+              - term [ref=e97]: SKU
+              - definition [ref=e98]: 24-MB05
+              - term [ref=e99]: Activity
+              - definition [ref=e100]: Gym, Overnight, Travel
+              - term [ref=e101]: Style
+              - definition [ref=e102]: Messenger, Laptop
+              - term [ref=e103]: Material
+              - definition [ref=e104]: Nylon, Polyester
+              - term [ref=e105]: Strap/Handle
+              - definition [ref=e106]: Adjustable, Detachable, Double, Padded, Shoulder
+              - term [ref=e107]: Features
+              - definition [ref=e108]: Waterproof, Lightweight, Reflective, Laptop Sleeve, Lockable
+  - contentinfo [ref=e111]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - navigation [ref=e114]:
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - strong [ref=e117]: Catalog
+            - listitem [ref=e118]:
+              - link "What's New" [ref=e119] [cursor=pointer]:
+                - /url: /what-is-new.html
+            - listitem [ref=e120]:
+              - link "Women" [ref=e121] [cursor=pointer]:
+                - /url: /women.html
+            - listitem [ref=e122]:
+              - link "Men" [ref=e123] [cursor=pointer]:
+                - /url: /men.html
+            - listitem [ref=e124]:
+              - link "Gear" [ref=e125] [cursor=pointer]:
+                - /url: /gear.html
+            - listitem [ref=e126]:
+              - link "Training" [ref=e127] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e128]:
+              - link "Sale" [ref=e129] [cursor=pointer]:
+                - /url: /sale.html
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - strong [ref=e132]: Support
+            - listitem [ref=e133]:
+              - link "Customer Service" [ref=e134] [cursor=pointer]:
+                - /url: /customer-service.html
+            - listitem [ref=e135]:
+              - link "Documentation" [ref=e136] [cursor=pointer]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e137]:
+              - link "FAQ" [ref=e138] [cursor=pointer]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - strong [ref=e141]: Legal
+            - listitem [ref=e142]:
+              - link "Privacy" [ref=e143] [cursor=pointer]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e144]:
+              - link "Cookies" [ref=e145] [cursor=pointer]:
+                - /url: /enable-cookies
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - strong [ref=e148]: Rapidez
+            - listitem [ref=e149]:
+              - link "Website" [ref=e150] [cursor=pointer]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e151]:
+              - link "GitHub" [ref=e152] [cursor=pointer]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e153]:
+          - strong [ref=e154]: Want product news and updates?
+          - paragraph [ref=e155]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - textbox "Enter your email" [ref=e161]
+              - button "Subscribe" [ref=e163] [cursor=pointer]
+            - paragraph [ref=e164]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e165] [cursor=pointer]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - link "GitHub" [ref=e168] [cursor=pointer]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e169] [cursor=pointer]: GitHub
+            - img [ref=e170] [cursor=pointer]
+          - link "X" [ref=e172] [cursor=pointer]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e173] [cursor=pointer]: X
+            - img [ref=e174] [cursor=pointer]
+          - link "Slack" [ref=e176] [cursor=pointer]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e177] [cursor=pointer]: Slack
+            - img [ref=e178] [cursor=pointer]
+        - paragraph [ref=e181]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```

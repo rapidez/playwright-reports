@@ -1,0 +1,161 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14] [cursor=pointer]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - link "Login" [ref=e30] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+          - img [ref=e31] [cursor=pointer]
+        - link "Cart" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34] [cursor=pointer]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42] [cursor=pointer]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44] [cursor=pointer]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46] [cursor=pointer]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48] [cursor=pointer]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - link "New Luma Yoga Collection Get fit and look fab in new seasonal styles Shop New Yoga" [ref=e52] [cursor=pointer]:
+          - /url: /collections/yoga-new.html
+          - generic [ref=e54] [cursor=pointer]:
+            - generic [ref=e55] [cursor=pointer]:
+              - paragraph [ref=e56] [cursor=pointer]: New Luma Yoga Collection
+              - paragraph [ref=e57] [cursor=pointer]: Get fit and look fab in new seasonal styles
+            - generic [ref=e58] [cursor=pointer]: Shop New Yoga
+        - link "Men Tops Collection Find conscientious, comfy clothing Shop Men Tops" [ref=e59] [cursor=pointer]:
+          - /url: /men/tops-men.html
+          - generic [ref=e61] [cursor=pointer]:
+            - generic [ref=e62] [cursor=pointer]:
+              - paragraph [ref=e63] [cursor=pointer]: Men Tops Collection
+              - paragraph [ref=e64] [cursor=pointer]: Find conscientious, comfy clothing
+            - generic [ref=e65] [cursor=pointer]: Shop Men Tops
+        - link "Even more ways to mix and match Buy 3 Luma tees get a 4th free Shop Tees" [ref=e66] [cursor=pointer]:
+          - /url: /promotions/tees-all.html
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e69] [cursor=pointer]:
+              - paragraph [ref=e70] [cursor=pointer]: Even more ways to mix and match
+              - paragraph [ref=e71] [cursor=pointer]: Buy 3 Luma tees get a 4th free
+            - generic [ref=e72] [cursor=pointer]: Shop Tees
+      - generic [ref=e73]:
+        - paragraph [ref=e74]: Built with / supported by
+        - generic [ref=e75]:
+          - img "Laravel" [ref=e77]
+          - img "Vue" [ref=e79]
+          - img "Tailwind CSS" [ref=e81]
+          - img "InstantSearch" [ref=e83]
+          - img "JustBetter" [ref=e85]
+          - img "Magento" [ref=e87]
+  - contentinfo [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - navigation [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - strong [ref=e94]: Catalog
+            - listitem [ref=e95]:
+              - link "What's New" [ref=e96] [cursor=pointer]:
+                - /url: /what-is-new.html
+            - listitem [ref=e97]:
+              - link "Women" [ref=e98] [cursor=pointer]:
+                - /url: /women.html
+            - listitem [ref=e99]:
+              - link "Men" [ref=e100] [cursor=pointer]:
+                - /url: /men.html
+            - listitem [ref=e101]:
+              - link "Gear" [ref=e102] [cursor=pointer]:
+                - /url: /gear.html
+            - listitem [ref=e103]:
+              - link "Training" [ref=e104] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e105]:
+              - link "Sale" [ref=e106] [cursor=pointer]:
+                - /url: /sale.html
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - strong [ref=e109]: Support
+            - listitem [ref=e110]:
+              - link "Customer Service" [ref=e111] [cursor=pointer]:
+                - /url: /customer-service.html
+            - listitem [ref=e112]:
+              - link "Documentation" [ref=e113] [cursor=pointer]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e114]:
+              - link "FAQ" [ref=e115] [cursor=pointer]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - strong [ref=e118]: Legal
+            - listitem [ref=e119]:
+              - link "Privacy" [ref=e120] [cursor=pointer]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e121]:
+              - link "Cookies" [ref=e122] [cursor=pointer]:
+                - /url: /enable-cookies
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - strong [ref=e125]: Rapidez
+            - listitem [ref=e126]:
+              - link "Website" [ref=e127] [cursor=pointer]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e128]:
+              - link "GitHub" [ref=e129] [cursor=pointer]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e130]:
+          - strong [ref=e131]: Want product news and updates?
+          - paragraph [ref=e132]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - textbox "Enter your email" [ref=e138]
+              - button "Subscribe" [ref=e140] [cursor=pointer]
+            - paragraph [ref=e141]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e142] [cursor=pointer]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - link "GitHub" [ref=e145] [cursor=pointer]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e146] [cursor=pointer]: GitHub
+            - img [ref=e147] [cursor=pointer]
+          - link "X" [ref=e149] [cursor=pointer]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e150] [cursor=pointer]: X
+            - img [ref=e151] [cursor=pointer]
+          - link "Slack" [ref=e153] [cursor=pointer]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e154] [cursor=pointer]: Slack
+            - img [ref=e155] [cursor=pointer]
+        - paragraph [ref=e158]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```

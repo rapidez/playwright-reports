@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - link "Go to home" [ref=e13] [cursor=pointer]:
+      - /url: /
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - navigation [ref=e17]:
+        - generic [ref=e18]:
+          - link "1":
+            - /url: http://localhost:8000/checkout/login
+          - generic [ref=e20]: Login
+        - generic [ref=e21]:
+          - link "2":
+            - /url: http://localhost:8000/checkout/credentials
+          - generic [ref=e23]: Credentials
+        - generic [ref=e24]:
+          - link "3":
+            - /url: http://localhost:8000/checkout/payment
+          - generic [ref=e25]: Payment
+      - generic [ref=e26]:
+        - group [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Email *
+            - textbox "Email *" [ref=e30]: wayne+c79b095d-633e-4fee-903c-364f6dca646d@enterprises.com
+          - generic [ref=e31]:
+            - generic [ref=e32]: Password *
+            - generic [ref=e34]:
+              - textbox "Password *" [ref=e35]
+              - img [ref=e37] [cursor=pointer]
+          - generic [ref=e39]:
+            - generic [ref=e40]: Repeat password *
+            - generic [ref=e42]:
+              - textbox "Repeat password *" [ref=e43]
+              - img [ref=e45] [cursor=pointer]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Firstname *
+            - textbox "Firstname *" [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]: Lastname *
+            - textbox "Lastname *" [ref=e52]
+          - generic [ref=e53] [cursor=pointer]:
+            - checkbox "Create an account" [checked] [active] [ref=e54] [cursor=pointer]
+            - text: Create an account
+        - button "Next" [ref=e55] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - paragraph [ref=e60]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```
