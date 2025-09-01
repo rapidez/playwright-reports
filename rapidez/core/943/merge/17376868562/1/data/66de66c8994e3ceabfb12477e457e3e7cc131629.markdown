@@ -1,0 +1,1078 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Stack" [ref=e9]:
+              - /url: "#stack"
+              - button "Stack" [ref=e10] [cursor=pointer]:
+                - img [ref=e12] [cursor=pointer]
+                - generic [ref=e14] [cursor=pointer]: Stack
+          - listitem [ref=e15]:
+            - link "Context" [ref=e16]:
+              - /url: "#context"
+              - button "Context" [ref=e17] [cursor=pointer]:
+                - img [ref=e19] [cursor=pointer]
+                - generic [ref=e21] [cursor=pointer]: Context
+          - listitem [ref=e22]:
+            - link "Debug" [ref=e23]:
+              - /url: "#debug"
+              - button "Debug" [ref=e24] [cursor=pointer]:
+                - img [ref=e26] [cursor=pointer]
+                - generic [ref=e28] [cursor=pointer]: Debug
+          - listitem [ref=e29]:
+            - link "Flare" [ref=e30]:
+              - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+              - button "Flare" [ref=e31] [cursor=pointer]:
+                - img [ref=e33] [cursor=pointer]
+                - generic [ref=e38] [cursor=pointer]: Flare
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - link "Share" [ref=e41]:
+              - /url: "#share"
+              - button "Share" [ref=e42] [cursor=pointer]:
+                - img [ref=e44] [cursor=pointer]
+                - generic [ref=e46] [cursor=pointer]: Share
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Share with Flare" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/docs/ignition/introducing-ignition/sharing-errors?utm_campaign=ignition&utm_source=ignition
+                    - text: Docs
+                    - img
+                - list:
+                  - listitem:
+                    - generic:
+                      - checkbox "Stack" [checked]
+                      - generic: Stack
+                  - listitem:
+                    - generic:
+                      - checkbox "Context" [checked]
+                      - generic: Context
+                  - listitem:
+                    - generic:
+                      - checkbox "Debug" [checked]
+                      - generic: Debug
+                - generic:
+                  - button "Create Share":
+                    - img
+                    - text: Create Share
+          - listitem [ref=e47]:
+            - link "Docs" [ref=e48]:
+              - /url: https://laravel.com/docs/
+              - button "Docs" [ref=e49] [cursor=pointer]:
+                - img [ref=e51] [cursor=pointer]
+                - generic [ref=e53] [cursor=pointer]: Docs
+          - listitem [ref=e54]:
+            - link [ref=e55]:
+              - /url: "#settings"
+              - button [ref=e56] [cursor=pointer]:
+                - img [ref=e58] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Ignition Settings" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/ignition?utm_campaign=ignition&utm_source=ignition
+                    - text: Docs
+                    - img
+                - generic:
+                  - generic: Editor
+                  - generic:
+                    - combobox "Editor":
+                      - option "Clipboard"
+                      - option "Sublime"
+                      - option "TextMate"
+                      - option "Emacs"
+                      - option "MacVim"
+                      - option "PhpStorm" [selected]
+                      - option "PHPStorm Remote"
+                      - option "Idea"
+                      - option "VS Code"
+                      - option "VS Code Insiders"
+                      - option "VS Code Remote"
+                      - option "VS Code Insiders Remote"
+                      - option "VS Codium"
+                      - option "Cursor"
+                      - option "Atom"
+                      - option "Nova"
+                      - option "NetBeans"
+                      - option "Xdebug"
+                    - generic:
+                      - img
+                - generic:
+                  - generic: Theme
+                  - button "auto":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - img
+                      - generic: auto
+                - generic:
+                  - button "Save settings"
+                - paragraph:
+                  - text: Settings will be saved locally in
+                  - code: ~/.ignition.json
+                  - text: .
+      - link "Call to undefined method Rapidez\\Core\\Models\\Product::selectForProductPage()" [ref=e62]:
+        - /url: "#top"
+        - generic [ref=e63]: Call to undefined method Rapidez\Core\Models\Product::selectForProductPage()
+  - main [ref=e64]:
+    - generic [ref=e67]:
+      - main [ref=e68]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e74]: BadMethodCallException
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: PHP
+                - text: 8.4.12
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - text: 12.25.0
+          - generic [ref=e82]: Call to undefined method Rapidez\Core\Models\Product::selectForProductPage()
+      - complementary [ref=e83]:
+        - generic [ref=e84]:
+          - button [ref=e85] [cursor=pointer]:
+            - img [ref=e86] [cursor=pointer]
+          - generic [ref=e89]:
+            - heading "Bad Method Call" [level=2] [ref=e91]
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: Did you mean Rapidez\Core\Models\Product::categoryProducts() ?
+              - list
+    - generic [ref=e97]:
+      - complementary [ref=e98]:
+        - generic [ref=e99]:
+          - button "Expand vendor frames" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102] [cursor=pointer]:
+              - img [ref=e103] [cursor=pointer]
+              - img [ref=e105] [cursor=pointer]
+            - text: Expand vendor frames
+          - list [ref=e108]:
+            - listitem [ref=e109] [cursor=pointer]:
+              - text: 3 vendor frames
+              - img [ref=e110] [cursor=pointer]
+            - listitem [ref=e112]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: Rapidez
+                - generic [ref=e116]: \
+                - generic [ref=e117]: Core
+                - generic [ref=e118]: \
+                - generic [ref=e119]: Models
+                - generic [ref=e120]: \
+                - generic [ref=e121]: Model
+                - generic [ref=e122]:
+                  - text: ":"
+                  - generic [ref=e123]: "26"
+              - generic [ref=e124]: __call
+            - listitem [ref=e125]
+            - listitem [ref=e126] [cursor=pointer]:
+              - text: 1 vendor frame
+              - img [ref=e127] [cursor=pointer]
+            - listitem [ref=e129] [cursor=pointer]:
+              - generic [ref=e131] [cursor=pointer]:
+                - generic [ref=e132] [cursor=pointer]: Rapidez
+                - generic [ref=e133] [cursor=pointer]: \
+                - generic [ref=e134] [cursor=pointer]: Core
+                - generic [ref=e135] [cursor=pointer]: \
+                - generic [ref=e136] [cursor=pointer]: Models
+                - generic [ref=e137] [cursor=pointer]: \
+                - generic [ref=e138] [cursor=pointer]: Model
+                - generic [ref=e139] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e140] [cursor=pointer]: "35"
+              - generic [ref=e141] [cursor=pointer]: __callStatic
+            - listitem [ref=e142] [cursor=pointer]:
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145] [cursor=pointer]: Rapidez
+                - generic [ref=e146] [cursor=pointer]: \
+                - generic [ref=e147] [cursor=pointer]: Core
+                - generic [ref=e148] [cursor=pointer]: \
+                - generic [ref=e149] [cursor=pointer]: Http
+                - generic [ref=e150] [cursor=pointer]: \
+                - generic [ref=e151] [cursor=pointer]: Controllers
+                - generic [ref=e152] [cursor=pointer]: \
+                - generic [ref=e153] [cursor=pointer]: ProductController
+                - generic [ref=e154] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e155] [cursor=pointer]: "13"
+              - generic [ref=e156] [cursor=pointer]: show
+            - listitem [ref=e157] [cursor=pointer]:
+              - generic [ref=e159] [cursor=pointer]:
+                - generic [ref=e160] [cursor=pointer]: Rapidez
+                - generic [ref=e161] [cursor=pointer]: \
+                - generic [ref=e162] [cursor=pointer]: Core
+                - generic [ref=e163] [cursor=pointer]: \
+                - generic [ref=e164] [cursor=pointer]: Http
+                - generic [ref=e165] [cursor=pointer]: \
+                - generic [ref=e166] [cursor=pointer]: Controllers
+                - generic [ref=e167] [cursor=pointer]: \
+                - generic [ref=e168] [cursor=pointer]: Fallback
+                - generic [ref=e169] [cursor=pointer]: \
+                - generic [ref=e170] [cursor=pointer]: UrlRewriteController
+                - generic [ref=e171] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e172] [cursor=pointer]: "29"
+              - generic [ref=e173] [cursor=pointer]: __invoke
+            - listitem [ref=e174] [cursor=pointer]:
+              - text: 3 vendor frames
+              - img [ref=e175] [cursor=pointer]
+            - listitem [ref=e177] [cursor=pointer]:
+              - generic [ref=e179] [cursor=pointer]:
+                - generic [ref=e180] [cursor=pointer]: Rapidez
+                - generic [ref=e181] [cursor=pointer]: \
+                - generic [ref=e182] [cursor=pointer]: Core
+                - generic [ref=e183] [cursor=pointer]: \
+                - generic [ref=e184] [cursor=pointer]: Http
+                - generic [ref=e185] [cursor=pointer]: \
+                - generic [ref=e186] [cursor=pointer]: Controllers
+                - generic [ref=e187] [cursor=pointer]: \
+                - generic [ref=e188] [cursor=pointer]: FallbackController
+                - generic [ref=e189] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e190] [cursor=pointer]: "67"
+              - generic [ref=e191] [cursor=pointer]: "{closure:Rapidez\\Core\\Http\\Controllers\\FallbackController::tryRoute():66}"
+            - listitem [ref=e192] [cursor=pointer]:
+              - text: 2 vendor frames
+              - img [ref=e193] [cursor=pointer]
+            - listitem [ref=e195] [cursor=pointer]:
+              - generic [ref=e197] [cursor=pointer]:
+                - generic [ref=e198] [cursor=pointer]: Rapidez
+                - generic [ref=e199] [cursor=pointer]: \
+                - generic [ref=e200] [cursor=pointer]: Core
+                - generic [ref=e201] [cursor=pointer]: \
+                - generic [ref=e202] [cursor=pointer]: Http
+                - generic [ref=e203] [cursor=pointer]: \
+                - generic [ref=e204] [cursor=pointer]: Controllers
+                - generic [ref=e205] [cursor=pointer]: \
+                - generic [ref=e206] [cursor=pointer]: FallbackController
+                - generic [ref=e207] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e208] [cursor=pointer]: "66"
+              - generic [ref=e209] [cursor=pointer]: tryRoute
+            - listitem [ref=e210] [cursor=pointer]:
+              - generic [ref=e212] [cursor=pointer]:
+                - generic [ref=e213] [cursor=pointer]: Rapidez
+                - generic [ref=e214] [cursor=pointer]: \
+                - generic [ref=e215] [cursor=pointer]: Core
+                - generic [ref=e216] [cursor=pointer]: \
+                - generic [ref=e217] [cursor=pointer]: Http
+                - generic [ref=e218] [cursor=pointer]: \
+                - generic [ref=e219] [cursor=pointer]: Controllers
+                - generic [ref=e220] [cursor=pointer]: \
+                - generic [ref=e221] [cursor=pointer]: FallbackController
+                - generic [ref=e222] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e223] [cursor=pointer]: "41"
+              - generic [ref=e224] [cursor=pointer]: __invoke
+            - listitem [ref=e225] [cursor=pointer]:
+              - text: 6 vendor frames
+              - img [ref=e226] [cursor=pointer]
+            - listitem [ref=e228] [cursor=pointer]:
+              - generic [ref=e230] [cursor=pointer]:
+                - generic [ref=e231] [cursor=pointer]: Rapidez
+                - generic [ref=e232] [cursor=pointer]: \
+                - generic [ref=e233] [cursor=pointer]: Core
+                - generic [ref=e234] [cursor=pointer]: \
+                - generic [ref=e235] [cursor=pointer]: Http
+                - generic [ref=e236] [cursor=pointer]: \
+                - generic [ref=e237] [cursor=pointer]: Middleware
+                - generic [ref=e238] [cursor=pointer]: \
+                - generic [ref=e239] [cursor=pointer]: ConfigForTesting
+                - generic [ref=e240] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e241] [cursor=pointer]: "32"
+              - generic [ref=e242] [cursor=pointer]: handle
+            - listitem [ref=e243] [cursor=pointer]:
+              - text: 23 vendor frames
+              - img [ref=e244] [cursor=pointer]
+            - listitem [ref=e246] [cursor=pointer]:
+              - generic [ref=e248] [cursor=pointer]:
+                - generic [ref=e249] [cursor=pointer]: Rapidez
+                - generic [ref=e250] [cursor=pointer]: \
+                - generic [ref=e251] [cursor=pointer]: Core
+                - generic [ref=e252] [cursor=pointer]: \
+                - generic [ref=e253] [cursor=pointer]: Http
+                - generic [ref=e254] [cursor=pointer]: \
+                - generic [ref=e255] [cursor=pointer]: Middleware
+                - generic [ref=e256] [cursor=pointer]: \
+                - generic [ref=e257] [cursor=pointer]: DetermineAndSetShop
+                - generic [ref=e258] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e259] [cursor=pointer]: "22"
+              - generic [ref=e260] [cursor=pointer]: handle
+            - listitem [ref=e261] [cursor=pointer]:
+              - text: 27 vendor frames
+              - img [ref=e262] [cursor=pointer]
+            - listitem [ref=e264] [cursor=pointer]:
+              - generic [ref=e266] [cursor=pointer]:
+                - generic [ref=e267] [cursor=pointer]: public
+                - generic [ref=e268] [cursor=pointer]: /
+                - generic [ref=e269] [cursor=pointer]: index
+                - generic [ref=e270] [cursor=pointer]: .php
+                - generic [ref=e271] [cursor=pointer]:
+                  - text: ":"
+                  - generic [ref=e272] [cursor=pointer]: "20"
+              - generic [ref=e273] [cursor=pointer]: require_once
+            - listitem [ref=e274] [cursor=pointer]:
+              - text: 1 vendor frame
+              - img [ref=e275] [cursor=pointer]
+      - generic [ref=e277]:
+        - 'link "/ home / runner / work / core / core / rapidez / core / src / Models / Model .php : 26" [ref=e279]':
+          - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=26
+          - generic [ref=e280]:
+            - generic [ref=e281]: /
+            - generic [ref=e282]: home
+            - generic [ref=e283]: /
+            - generic [ref=e284]: runner
+            - generic [ref=e285]: /
+            - generic [ref=e286]: work
+            - generic [ref=e287]: /
+            - generic [ref=e288]: core
+            - generic [ref=e289]: /
+            - generic [ref=e290]: core
+            - generic [ref=e291]: /
+            - generic [ref=e292]: rapidez
+            - generic [ref=e293]: /
+            - generic [ref=e294]: core
+            - generic [ref=e295]: /
+            - generic [ref=e296]: src
+            - generic [ref=e297]: /
+            - generic [ref=e298]: Models
+            - generic [ref=e299]: /
+            - generic [ref=e300]: Model
+            - generic [ref=e301]: .php
+            - generic [ref=e302]:
+              - text: ":"
+              - generic [ref=e303]: "26"
+        - main [ref=e304]:
+          - navigation [ref=e305]:
+            - generic [ref=e306]:
+              - paragraph [ref=e307]:
+                - generic [ref=e308]: "11"
+              - paragraph [ref=e309]:
+                - generic [ref=e310]: "12"
+              - paragraph [ref=e311]:
+                - generic [ref=e312]: "13"
+              - paragraph [ref=e313]:
+                - generic [ref=e314]: "14"
+              - paragraph [ref=e315]:
+                - generic [ref=e316]: "15"
+              - paragraph [ref=e317]:
+                - generic [ref=e318]: "16"
+              - paragraph [ref=e319]:
+                - generic [ref=e320]: "17"
+              - paragraph [ref=e321]:
+                - generic [ref=e322]: "18"
+              - paragraph [ref=e323]:
+                - generic [ref=e324]: "19"
+              - paragraph [ref=e325]:
+                - generic [ref=e326]: "20"
+              - paragraph [ref=e327]:
+                - generic [ref=e328]: "21"
+              - paragraph [ref=e329]:
+                - generic [ref=e330]: "22"
+              - paragraph [ref=e331]:
+                - generic [ref=e332]: "23"
+              - paragraph [ref=e333]:
+                - generic [ref=e334]: "24"
+              - paragraph [ref=e335]:
+                - generic [ref=e336]: "25"
+              - paragraph [ref=e337]:
+                - generic [ref=e338]: "26"
+              - paragraph [ref=e339]:
+                - generic [ref=e340]: "27"
+              - paragraph [ref=e341]:
+                - generic [ref=e342]: "28"
+              - paragraph [ref=e343]:
+                - generic [ref=e344]: "29"
+              - paragraph [ref=e345]:
+                - generic [ref=e346]: "30"
+              - paragraph [ref=e347]:
+                - generic [ref=e348]: "31"
+              - paragraph [ref=e349]:
+                - generic [ref=e350]: "32"
+              - paragraph [ref=e351]:
+                - generic [ref=e352]: "33"
+              - paragraph [ref=e353]:
+                - generic [ref=e354]: "34"
+              - paragraph [ref=e355]:
+                - generic [ref=e356]: "35"
+              - paragraph [ref=e357]:
+                - generic [ref=e358]: "36"
+              - paragraph [ref=e359]:
+                - generic [ref=e360]: "37"
+              - paragraph [ref=e361]:
+                - generic [ref=e362]: "38"
+              - paragraph [ref=e363]:
+                - generic [ref=e364]: "39"
+              - paragraph [ref=e365]:
+                - generic [ref=e366]: "40"
+          - code [ref=e369]:
+            - generic [ref=e370]:
+              - link [ref=e371]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=11
+                - button [ref=e372] [cursor=pointer]:
+                  - img [ref=e373] [cursor=pointer]
+              - generic [ref=e377]: "{"
+            - generic [ref=e378]:
+              - link [ref=e379]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=12
+                - button [ref=e380] [cursor=pointer]:
+                  - img [ref=e381] [cursor=pointer]
+              - generic [ref=e384]:
+                - generic [ref=e386]: use
+                - generic [ref=e388]: HasEventyGlobalScopeFilter
+                - generic [ref=e389]: ;
+            - generic [ref=e390]:
+              - link [ref=e391]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=13
+                - button [ref=e392] [cursor=pointer]:
+                  - img [ref=e393] [cursor=pointer]
+              - generic [ref=e396]:
+                - generic [ref=e398]: use
+                - generic [ref=e400]: Macroable
+                - generic [ref=e401]: "{"
+            - generic [ref=e402]:
+              - link [ref=e403]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=14
+                - button [ref=e404] [cursor=pointer]:
+                  - img [ref=e405] [cursor=pointer]
+              - generic [ref=e408]:
+                - generic [ref=e410]: Macroable
+                - generic [ref=e411]: "::"
+                - generic [ref=e412]: __call
+                - generic [ref=e414]: as
+                - generic [ref=e416]: macroCall
+                - generic [ref=e417]: ;
+            - generic [ref=e418]:
+              - link [ref=e419]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=15
+                - button [ref=e420] [cursor=pointer]:
+                  - img [ref=e421] [cursor=pointer]
+              - generic [ref=e424]:
+                - generic [ref=e425]: Macroable::__callStatic
+                - generic [ref=e426]: as
+                - generic [ref=e427]: macroCallStatic;
+            - generic [ref=e428]:
+              - link [ref=e429]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=16
+                - button [ref=e430] [cursor=pointer]:
+                  - img [ref=e431] [cursor=pointer]
+              - generic [ref=e434]: "}"
+            - link [ref=e436]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=17
+              - button [ref=e437] [cursor=pointer]:
+                - img [ref=e438] [cursor=pointer]
+            - generic [ref=e441]:
+              - link [ref=e442]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=18
+                - button [ref=e443] [cursor=pointer]:
+                  - img [ref=e444] [cursor=pointer]
+              - generic [ref=e447]:
+                - generic [ref=e449]: public
+                - generic [ref=e451]: static
+                - generic [ref=e452]: "?"
+                - generic [ref=e453]: string
+                - generic [ref=e455]: $modelName
+                - generic [ref=e456]: ;
+            - link [ref=e458]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=19
+              - button [ref=e459] [cursor=pointer]:
+                - img [ref=e460] [cursor=pointer]
+            - generic [ref=e463]:
+              - link [ref=e464]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=20
+                - button [ref=e465] [cursor=pointer]:
+                  - img [ref=e466] [cursor=pointer]
+              - generic [ref=e469]:
+                - generic [ref=e471]: public
+                - generic [ref=e473]: function
+                - generic [ref=e475]: __call
+                - generic [ref=e476]: (
+                - generic [ref=e477]: $method
+                - generic [ref=e478]: ","
+                - generic [ref=e479]: $parameters
+                - generic [ref=e480]: )
+            - generic [ref=e481]:
+              - link [ref=e482]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=21
+                - button [ref=e483] [cursor=pointer]:
+                  - img [ref=e484] [cursor=pointer]
+              - generic [ref=e489]: "{"
+            - generic [ref=e490]:
+              - link [ref=e491]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=22
+                - button [ref=e492] [cursor=pointer]:
+                  - img [ref=e493] [cursor=pointer]
+              - generic [ref=e496]:
+                - generic [ref=e498]: if
+                - generic [ref=e499]: (
+                - generic [ref=e500]: static
+                - generic [ref=e501]: ::hasMacro(
+                - generic [ref=e502]: $method
+                - generic [ref=e503]: ")) {"
+            - generic [ref=e504]:
+              - link [ref=e505]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=23
+                - button [ref=e506] [cursor=pointer]:
+                  - img [ref=e507] [cursor=pointer]
+              - generic [ref=e510]:
+                - generic [ref=e512]: return
+                - generic [ref=e514]: static
+                - generic [ref=e515]: ::macroCall(
+                - generic [ref=e516]: $method
+                - generic [ref=e517]: ","
+                - generic [ref=e518]: $parameters
+                - generic [ref=e519]: );
+            - generic [ref=e520]:
+              - link [ref=e521]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=24
+                - button [ref=e522] [cursor=pointer]:
+                  - img [ref=e523] [cursor=pointer]
+              - generic [ref=e526]: "}"
+            - link [ref=e528]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=25
+              - button [ref=e529] [cursor=pointer]:
+                - img [ref=e530] [cursor=pointer]
+            - generic [ref=e533]:
+              - link [ref=e534]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=26
+                - button [ref=e535] [cursor=pointer]:
+                  - img [ref=e536] [cursor=pointer]
+              - generic [ref=e539]:
+                - generic [ref=e541]: return
+                - generic [ref=e543]: parent
+                - generic [ref=e544]: ::__call(
+                - generic [ref=e545]: $method
+                - generic [ref=e546]: ","
+                - generic [ref=e547]: $parameters
+                - generic [ref=e548]: );
+            - generic [ref=e549]:
+              - link [ref=e550]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=27
+                - button [ref=e551] [cursor=pointer]:
+                  - img [ref=e552] [cursor=pointer]
+              - generic [ref=e555]: "}"
+            - link [ref=e557]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=28
+              - button [ref=e558] [cursor=pointer]:
+                - img [ref=e559] [cursor=pointer]
+            - generic [ref=e562]:
+              - link [ref=e563]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=29
+                - button [ref=e564] [cursor=pointer]:
+                  - img [ref=e565] [cursor=pointer]
+              - generic [ref=e568]:
+                - generic [ref=e570]: public
+                - generic [ref=e572]: static
+                - generic [ref=e574]: function
+                - generic [ref=e576]: __callStatic
+                - generic [ref=e577]: (
+                - generic [ref=e578]: $method
+                - generic [ref=e579]: ","
+                - generic [ref=e580]: $parameters
+                - generic [ref=e581]: )
+            - generic [ref=e582]:
+              - link [ref=e583]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=30
+                - button [ref=e584] [cursor=pointer]:
+                  - img [ref=e585] [cursor=pointer]
+              - generic [ref=e590]: "{"
+            - generic [ref=e591]:
+              - link [ref=e592]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=31
+                - button [ref=e593] [cursor=pointer]:
+                  - img [ref=e594] [cursor=pointer]
+              - generic [ref=e597]:
+                - generic [ref=e599]: if
+                - generic [ref=e600]: (
+                - generic [ref=e601]: static
+                - generic [ref=e602]: ::hasMacro(
+                - generic [ref=e603]: $method
+                - generic [ref=e604]: ")) {"
+            - generic [ref=e605]:
+              - link [ref=e606]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=32
+                - button [ref=e607] [cursor=pointer]:
+                  - img [ref=e608] [cursor=pointer]
+              - generic [ref=e611]:
+                - generic [ref=e613]: return
+                - generic [ref=e615]: static
+                - generic [ref=e616]: ::macroCallStatic(
+                - generic [ref=e617]: $method
+                - generic [ref=e618]: ","
+                - generic [ref=e619]: $parameters
+                - generic [ref=e620]: );
+            - generic [ref=e621]:
+              - link [ref=e622]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=33
+                - button [ref=e623] [cursor=pointer]:
+                  - img [ref=e624] [cursor=pointer]
+              - generic [ref=e627]: "}"
+            - link [ref=e629]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=34
+              - button [ref=e630] [cursor=pointer]:
+                - img [ref=e631] [cursor=pointer]
+            - generic [ref=e634]:
+              - link [ref=e635]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=35
+                - button [ref=e636] [cursor=pointer]:
+                  - img [ref=e637] [cursor=pointer]
+              - generic [ref=e640]:
+                - generic [ref=e642]: return
+                - generic [ref=e644]: parent
+                - generic [ref=e645]: ::__callStatic(
+                - generic [ref=e646]: $method
+                - generic [ref=e647]: ","
+                - generic [ref=e648]: $parameters
+                - generic [ref=e649]: );
+            - generic [ref=e650]:
+              - link [ref=e651]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=36
+                - button [ref=e652] [cursor=pointer]:
+                  - img [ref=e653] [cursor=pointer]
+              - generic [ref=e656]: "}"
+            - link [ref=e658]:
+              - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=37
+              - button [ref=e659] [cursor=pointer]:
+                - img [ref=e660] [cursor=pointer]
+            - generic [ref=e663]:
+              - link [ref=e664]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=38
+                - button [ref=e665] [cursor=pointer]:
+                  - img [ref=e666] [cursor=pointer]
+              - generic [ref=e669]:
+                - generic [ref=e671]: public
+                - generic [ref=e673]: static
+                - generic [ref=e675]: function
+                - generic [ref=e677]: getModelName
+                - generic [ref=e678]: (
+                - generic [ref=e679]: "):"
+                - generic [ref=e680]: string
+            - generic [ref=e681]:
+              - link [ref=e682]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=39
+                - button [ref=e683] [cursor=pointer]:
+                  - img [ref=e684] [cursor=pointer]
+              - generic [ref=e689]: "{"
+            - generic [ref=e690]:
+              - link [ref=e691]:
+                - /url: phpstorm://open?file=%2Fhome%2Frunner%2Fwork%2Fcore%2Fcore%2Frapidez%2Fcore%2Fsrc%2FModels%2FModel.php&line=40
+                - button [ref=e692] [cursor=pointer]:
+                  - img [ref=e693] [cursor=pointer]
+              - generic [ref=e696]:
+                - generic [ref=e698]: return
+                - generic [ref=e700]: static
+                - generic [ref=e701]: "::"
+                - generic [ref=e702]: $modelName
+                - generic [ref=e703]: "?? Str::snake(Str::studly(class_basename("
+                - generic [ref=e704]: static
+                - generic [ref=e705]: ::class)));
+    - generic [ref=e707]:
+      - navigation [ref=e708]:
+        - list [ref=e710]:
+          - listitem [ref=e711]:
+            - link "App" [ref=e712]:
+              - /url: "#context-app"
+            - list [ref=e713]:
+              - listitem [ref=e714]:
+                - link "Routing" [ref=e715]:
+                  - /url: "#context-app-routing"
+                  - img [ref=e717]
+                  - generic [ref=e719]: Routing
+          - listitem [ref=e720]:
+            - link "Request" [ref=e721]:
+              - /url: "#context-request"
+            - list [ref=e722]:
+              - listitem [ref=e723]:
+                - link "Browser" [ref=e724]:
+                  - /url: "#context-request-browser"
+                  - img [ref=e726]
+                  - generic [ref=e728]: Browser
+              - listitem [ref=e729]:
+                - link "Headers" [ref=e730]:
+                  - /url: "#context-request-headers"
+                  - img [ref=e732]
+                  - generic [ref=e734]: Headers
+              - listitem [ref=e735]:
+                - link "Body" [ref=e736]:
+                  - /url: "#context-request-body"
+                  - img [ref=e738]
+                  - generic [ref=e740]: Body
+          - listitem [ref=e741]:
+            - link "Context" [ref=e742]:
+              - /url: "#context-context"
+            - list [ref=e743]:
+              - listitem [ref=e744]:
+                - link "Git" [ref=e745]:
+                  - /url: "#context-context-git"
+                  - img [ref=e747]
+                  - generic [ref=e749]: Git
+              - listitem [ref=e750]:
+                - link "Versions" [ref=e751]:
+                  - /url: "#context-context-versions"
+                  - img [ref=e753]
+                  - generic [ref=e755]: Versions
+      - generic [ref=e756]:
+        - generic [ref=e757]:
+          - heading "App" [level=2] [ref=e758]
+          - generic [ref=e760]:
+            - heading "Routing" [level=1] [ref=e761]:
+              - text: Routing
+              - img [ref=e763]
+            - generic [ref=e765]:
+              - generic [ref=e766]:
+                - term [ref=e767]: Controller
+                - definition [ref=e768]:
+                  - generic [ref=e769]:
+                    - code [ref=e772]: Rapidez\Core\Http\Controllers\FallbackController
+                    - button "Copy to clipboard" [ref=e774] [cursor=pointer]:
+                      - img [ref=e775] [cursor=pointer]
+              - generic [ref=e777]:
+                - term [ref=e778]: Middleware
+                - definition [ref=e779]:
+                  - list [ref=e780]:
+                    - listitem [ref=e781]:
+                      - generic [ref=e782]:
+                        - code [ref=e785]: web
+                        - button "Copy to clipboard" [ref=e787] [cursor=pointer]:
+                          - img [ref=e788] [cursor=pointer]
+        - generic [ref=e790]:
+          - heading "Request" [level=2] [ref=e791]
+          - generic [ref=e792]:
+            - generic [ref=e793]:
+              - generic [ref=e794]:
+                - generic [ref=e795]: http://localhost:8000/wayfarer-messenger-bag.html
+                - generic [ref=e796]: GET
+              - generic [ref=e798] [cursor=pointer]:
+                - code [ref=e801] [cursor=pointer]:
+                  - code [ref=e803] [cursor=pointer]:
+                    - generic [ref=e804] [cursor=pointer]: curl
+                    - generic [ref=e806] [cursor=pointer]: "\"http://localhost:8000/wayfarer-messenger-bag.html\""
+                    - generic [ref=e807] [cursor=pointer]: \
+                    - generic [ref=e809] [cursor=pointer]: "-X"
+                    - generic [ref=e810] [cursor=pointer]: GET
+                    - generic [ref=e811] [cursor=pointer]: \
+                    - generic [ref=e813] [cursor=pointer]: "-H"
+                    - generic [ref=e815] [cursor=pointer]: "'accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'"
+                    - generic [ref=e816] [cursor=pointer]: \
+                    - generic [ref=e818] [cursor=pointer]: "-H"
+                    - generic [ref=e820] [cursor=pointer]: "'upgrade-insecure-requests: 1'"
+                    - generic [ref=e821] [cursor=pointer]: \
+                    - generic [ref=e823] [cursor=pointer]: "-H"
+                    - generic [ref=e825] [cursor=pointer]: "'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15'"
+                    - generic [ref=e826] [cursor=pointer]: \
+                    - generic [ref=e828] [cursor=pointer]: "-H"
+                    - generic [ref=e830] [cursor=pointer]: "'accept-language: en-US'"
+                    - generic [ref=e831] [cursor=pointer]: \
+                    - generic [ref=e833] [cursor=pointer]: "-H"
+                    - generic [ref=e835] [cursor=pointer]: "'accept-encoding: gzip, deflate'"
+                    - generic [ref=e836] [cursor=pointer]: \
+                    - generic [ref=e838] [cursor=pointer]: "-H"
+                    - generic [ref=e840] [cursor=pointer]: "'connection: Keep-Alive'"
+                    - generic [ref=e841] [cursor=pointer]: \
+                    - generic [ref=e843] [cursor=pointer]: "-H"
+                    - generic [ref=e845] [cursor=pointer]: "'host: localhost:8000'"
+                    - generic [ref=e846] [cursor=pointer]: \
+                    - generic [ref=e848] [cursor=pointer]: "-H"
+                    - generic [ref=e850] [cursor=pointer]: "'sec-fetch-dest: document'"
+                    - generic [ref=e851] [cursor=pointer]: \
+                    - generic [ref=e853] [cursor=pointer]: "-H"
+                    - generic [ref=e855] [cursor=pointer]: "'sec-fetch-mode: navigate'"
+                    - generic [ref=e856] [cursor=pointer]: \
+                    - generic [ref=e858] [cursor=pointer]: "-H"
+                    - generic [ref=e860] [cursor=pointer]: "'sec-fetch-site: none'"
+                    - generic [ref=e861] [cursor=pointer]: ;
+                - button "Copy to clipboard" [ref=e863] [cursor=pointer]:
+                  - img [ref=e864] [cursor=pointer]
+                - button [ref=e866] [cursor=pointer]:
+                  - img [ref=e867] [cursor=pointer]
+            - generic [ref=e869]:
+              - heading "Browser" [level=1] [ref=e870]:
+                - text: Browser
+                - img [ref=e872]
+              - generic [ref=e874]:
+                - code [ref=e877]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+                - button "Copy to clipboard" [ref=e879] [cursor=pointer]:
+                  - img [ref=e880] [cursor=pointer]
+            - generic [ref=e882]:
+              - heading "Headers" [level=1] [ref=e883]:
+                - text: Headers
+                - img [ref=e885]
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - term [ref=e889]: accept
+                  - definition [ref=e890]:
+                    - generic [ref=e891]:
+                      - code [ref=e894]: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                      - button "Copy to clipboard" [ref=e896] [cursor=pointer]:
+                        - img [ref=e897] [cursor=pointer]
+                - generic [ref=e899]:
+                  - term [ref=e900]: upgrade-insecure-requests
+                  - definition [ref=e901]:
+                    - generic [ref=e902]:
+                      - code [ref=e905]: "1"
+                      - button "Copy to clipboard" [ref=e907] [cursor=pointer]:
+                        - img [ref=e908] [cursor=pointer]
+                - generic [ref=e910]:
+                  - term [ref=e911]: user-agent
+                  - definition [ref=e912]:
+                    - generic [ref=e913]:
+                      - code [ref=e916]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+                      - button "Copy to clipboard" [ref=e918] [cursor=pointer]:
+                        - img [ref=e919] [cursor=pointer]
+                - generic [ref=e921]:
+                  - term [ref=e922]: accept-language
+                  - definition [ref=e923]:
+                    - generic [ref=e924]:
+                      - code [ref=e927]: en-US
+                      - button "Copy to clipboard" [ref=e929] [cursor=pointer]:
+                        - img [ref=e930] [cursor=pointer]
+                - generic [ref=e932]:
+                  - term [ref=e933]: accept-encoding
+                  - definition [ref=e934]:
+                    - generic [ref=e935]:
+                      - code [ref=e938]: gzip, deflate
+                      - button "Copy to clipboard" [ref=e940] [cursor=pointer]:
+                        - img [ref=e941] [cursor=pointer]
+                - generic [ref=e943]:
+                  - term [ref=e944]: connection
+                  - definition [ref=e945]:
+                    - generic [ref=e946]:
+                      - code [ref=e949]: Keep-Alive
+                      - button "Copy to clipboard" [ref=e951] [cursor=pointer]:
+                        - img [ref=e952] [cursor=pointer]
+                - generic [ref=e954]:
+                  - term [ref=e955]: host
+                  - definition [ref=e956]:
+                    - generic [ref=e957]:
+                      - code [ref=e960]: localhost:8000
+                      - button "Copy to clipboard" [ref=e962] [cursor=pointer]:
+                        - img [ref=e963] [cursor=pointer]
+                - generic [ref=e965]:
+                  - term [ref=e966]: sec-fetch-dest
+                  - definition [ref=e967]:
+                    - generic [ref=e968]:
+                      - code [ref=e971]: document
+                      - button "Copy to clipboard" [ref=e973] [cursor=pointer]:
+                        - img [ref=e974] [cursor=pointer]
+                - generic [ref=e976]:
+                  - term [ref=e977]: sec-fetch-mode
+                  - definition [ref=e978]:
+                    - generic [ref=e979]:
+                      - code [ref=e982]: navigate
+                      - button "Copy to clipboard" [ref=e984] [cursor=pointer]:
+                        - img [ref=e985] [cursor=pointer]
+                - generic [ref=e987]:
+                  - term [ref=e988]: sec-fetch-site
+                  - definition [ref=e989]:
+                    - generic [ref=e990]:
+                      - code [ref=e993]: none
+                      - button "Copy to clipboard" [ref=e995] [cursor=pointer]:
+                        - img [ref=e996] [cursor=pointer]
+            - generic [ref=e998]:
+              - heading "Body" [level=1] [ref=e999]:
+                - text: Body
+                - img [ref=e1001]
+              - generic [ref=e1003]:
+                - code [ref=e1006]: "[]"
+                - button "Copy to clipboard" [ref=e1008] [cursor=pointer]:
+                  - img [ref=e1009] [cursor=pointer]
+        - generic [ref=e1011]:
+          - heading "Context" [level=2] [ref=e1012]
+          - generic [ref=e1013]:
+            - generic [ref=e1014]:
+              - heading "Git" [level=1] [ref=e1015]:
+                - text: Git
+                - img [ref=e1017]
+              - generic [ref=e1019]:
+                - generic [ref=e1020]: Conversion color change for WCAG
+                - generic [ref=e1021]:
+                  - generic [ref=e1022]:
+                    - code [ref=e1025]: 0386d974a6add55623afe96df32ae80d63b0b98d
+                    - button "Copy to clipboard" [ref=e1027] [cursor=pointer]:
+                      - img [ref=e1028] [cursor=pointer]
+                  - link "View commit 0386d97" [ref=e1030]:
+                    - /url: https://github.com/rapidez/rapidez/commit/0386d974a6add55623afe96df32ae80d63b0b98d
+                    - button "View commit 0386d97" [ref=e1031] [cursor=pointer]:
+                      - img [ref=e1032] [cursor=pointer]
+                      - text: View commit 0386d97
+              - generic [ref=e1036]:
+                - img [ref=e1038]
+                - paragraph [ref=e1040]: Last commit is dirty. (Un)staged changes have been made since this commit.
+            - generic [ref=e1041]:
+              - heading "Versions" [level=1] [ref=e1042]:
+                - text: Versions
+                - img [ref=e1044]
+              - generic [ref=e1046]:
+                - generic [ref=e1047]:
+                  - term [ref=e1048]: Php Version
+                  - definition [ref=e1049]:
+                    - generic [ref=e1050]:
+                      - code [ref=e1053]: 8.4.12
+                      - button "Copy to clipboard" [ref=e1055] [cursor=pointer]:
+                        - img [ref=e1056] [cursor=pointer]
+                - generic [ref=e1058]:
+                  - term [ref=e1059]: Laravel Version
+                  - definition [ref=e1060]:
+                    - generic [ref=e1061]:
+                      - code [ref=e1064]: 12.25.0
+                      - button "Copy to clipboard" [ref=e1066] [cursor=pointer]:
+                        - img [ref=e1067] [cursor=pointer]
+                - generic [ref=e1069]:
+                  - term [ref=e1070]: Laravel Locale
+                  - definition [ref=e1071]:
+                    - generic [ref=e1072]:
+                      - code [ref=e1075]: en
+                      - button "Copy to clipboard" [ref=e1077] [cursor=pointer]:
+                        - img [ref=e1078] [cursor=pointer]
+                - generic [ref=e1080]:
+                  - term [ref=e1081]: Laravel Config Cached
+                  - definition [ref=e1082]:
+                    - generic [ref=e1083]:
+                      - img [ref=e1084]
+                      - generic [ref=e1086]: "false"
+                - generic [ref=e1087]:
+                  - term [ref=e1088]: App Debug
+                  - definition [ref=e1089]:
+                    - generic [ref=e1090]:
+                      - img [ref=e1091]
+                      - generic [ref=e1093]: "true"
+                - generic [ref=e1094]:
+                  - term [ref=e1095]: App Env
+                  - definition [ref=e1096]:
+                    - generic [ref=e1097]:
+                      - code [ref=e1100]: testing
+                      - button "Copy to clipboard" [ref=e1102] [cursor=pointer]:
+                        - img [ref=e1103] [cursor=pointer]
+    - generic [ref=e1106]:
+      - navigation:
+        - list [ref=e1107]:
+          - listitem [ref=e1108]:
+            - button "2 Queries" [ref=e1109] [cursor=pointer]:
+              - generic [ref=e1110] [cursor=pointer]: "2"
+              - generic [ref=e1111] [cursor=pointer]: Queries
+      - generic [ref=e1112]:
+        - generic [ref=e1113]:
+          - generic [ref=e1114]:
+            - generic [ref=e1115]: 12:01:15 PM
+            - generic [ref=e1116]:
+              - img "Runtime" [ref=e1117]
+              - text: 3.16ms
+            - generic [ref=e1119]:
+              - img "Connection" [ref=e1120]
+              - text: mysql
+          - generic [ref=e1123]:
+            - generic [ref=e1124] [cursor=pointer]:
+              - code [ref=e1127] [cursor=pointer]:
+                - code [ref=e1129] [cursor=pointer]:
+                  - generic [ref=e1130] [cursor=pointer]: select
+                  - generic [ref=e1131] [cursor=pointer]: "`store_id`, `store`.`name`, `store`.`code`, `store`.`website_id`, `store`.`group_id`, `store_group`.`root_category_id`, `store_website`.`code`"
+                  - generic [ref=e1132] [cursor=pointer]: as
+                  - generic [ref=e1133] [cursor=pointer]: "`website_code`"
+                  - generic [ref=e1134] [cursor=pointer]: from
+                  - generic [ref=e1135] [cursor=pointer]: "`store`"
+                  - generic [ref=e1136] [cursor=pointer]: inner
+                  - generic [ref=e1138] [cursor=pointer]: join
+                  - generic [ref=e1139] [cursor=pointer]: "`store_group`"
+                  - generic [ref=e1140] [cursor=pointer]: "on"
+                  - generic [ref=e1141] [cursor=pointer]: "`store_group`.`group_id`"
+                  - generic [ref=e1142] [cursor=pointer]: =
+                  - generic [ref=e1143] [cursor=pointer]: "`store`.`group_id`"
+                  - generic [ref=e1144] [cursor=pointer]: inner
+                  - generic [ref=e1146] [cursor=pointer]: join
+                  - generic [ref=e1147] [cursor=pointer]: "`store_website`"
+                  - generic [ref=e1148] [cursor=pointer]: "on"
+                  - generic [ref=e1149] [cursor=pointer]: "`store_website`.`website_id`"
+                  - generic [ref=e1150] [cursor=pointer]: =
+                  - generic [ref=e1151] [cursor=pointer]: "`store_group`.`website_id`"
+                  - generic [ref=e1152] [cursor=pointer]: where
+                  - generic [ref=e1153] [cursor=pointer]: "`store`.`is_active`"
+                  - generic [ref=e1154] [cursor=pointer]: =
+                  - generic [ref=e1156] [cursor=pointer]: "1"
+                  - generic [ref=e1158] [cursor=pointer]: and
+                  - generic [ref=e1159] [cursor=pointer]: "`store`.`code`"
+                  - generic [ref=e1160] [cursor=pointer]: <>
+                  - generic [ref=e1161] [cursor=pointer]: admin
+              - button "Copy to clipboard" [ref=e1163] [cursor=pointer]:
+                - img [ref=e1164] [cursor=pointer]
+              - button [ref=e1166] [cursor=pointer]:
+                - img [ref=e1167] [cursor=pointer]
+            - button "2 query parameters" [ref=e1170] [cursor=pointer]:
+              - img [ref=e1171] [cursor=pointer]
+              - text: 2 query parameters
+        - generic [ref=e1173]:
+          - generic [ref=e1174]:
+            - generic [ref=e1175]: 12:01:15 PM
+            - generic [ref=e1176]:
+              - img "Runtime" [ref=e1177]
+              - text: 0.76ms
+            - generic [ref=e1179]:
+              - img "Connection" [ref=e1180]
+              - text: mysql
+          - generic [ref=e1183]:
+            - generic [ref=e1184] [cursor=pointer]:
+              - code [ref=e1187] [cursor=pointer]:
+                - code [ref=e1189] [cursor=pointer]:
+                  - generic [ref=e1190] [cursor=pointer]: select
+                  - generic [ref=e1192] [cursor=pointer]: "*"
+                  - generic [ref=e1194] [cursor=pointer]: from
+                  - generic [ref=e1195] [cursor=pointer]: "`url_rewrite`"
+                  - generic [ref=e1196] [cursor=pointer]: where
+                  - generic [ref=e1197] [cursor=pointer]: "`request_path`"
+                  - generic [ref=e1198] [cursor=pointer]: =
+                  - generic [ref=e1199] [cursor=pointer]: wayfarer
+                  - generic [ref=e1200] [cursor=pointer]: "-"
+                  - generic [ref=e1201] [cursor=pointer]: messenger
+                  - generic [ref=e1202] [cursor=pointer]: "-"
+                  - generic [ref=e1203] [cursor=pointer]: bag.html
+                  - generic [ref=e1204] [cursor=pointer]: and
+                  - generic [ref=e1205] [cursor=pointer]: "`store_id`"
+                  - generic [ref=e1206] [cursor=pointer]: =
+                  - generic [ref=e1208] [cursor=pointer]: "1"
+                  - generic [ref=e1209] [cursor=pointer]: limit
+                  - generic [ref=e1210] [cursor=pointer]: "1"
+              - button "Copy to clipboard" [ref=e1212] [cursor=pointer]:
+                - img [ref=e1213] [cursor=pointer]
+              - button [ref=e1215] [cursor=pointer]:
+                - img [ref=e1216] [cursor=pointer]
+            - button "2 query parameters" [ref=e1219] [cursor=pointer]:
+              - img [ref=e1220] [cursor=pointer]
+              - text: 2 query parameters
+    - generic [ref=e1223]:
+      - list [ref=e1224]:
+        - listitem [ref=e1225]:
+          - img [ref=e1226]
+        - listitem [ref=e1234]: ·
+        - listitem [ref=e1235]:
+          - link "Source" [ref=e1236]:
+            - /url: https://github.com/spatie/laravel-ignition
+        - listitem [ref=e1237]: ·
+        - listitem [ref=e1238]:
+          - link "Docs" [ref=e1239]:
+            - /url: https://flareapp.io/docs/ignition/introducing-ignition/overview
+        - listitem [ref=e1240]: ·
+        - listitem [ref=e1241]:
+          - link "Laravel" [ref=e1242]:
+            - /url: https://laravel.com
+      - paragraph [ref=e1244]:
+        - text: Ignition is built by
+        - link "Flare" [ref=e1245]:
+          - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+          - img [ref=e1246]
+          - text: Flare
+        - text: ", the Laravel error reporting service."
+```

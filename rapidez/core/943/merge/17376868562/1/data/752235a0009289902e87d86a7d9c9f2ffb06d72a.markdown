@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14] [cursor=pointer]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - link "Login" [ref=e30] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+          - img [ref=e31] [cursor=pointer]
+        - link "Cart" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34] [cursor=pointer]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42] [cursor=pointer]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44] [cursor=pointer]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46] [cursor=pointer]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48] [cursor=pointer]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Home" [ref=e53] [cursor=pointer]:
+            - /url: http://localhost:8000
+            - generic [ref=e54] [cursor=pointer]: Home
+          - img [ref=e55]
+        - listitem [ref=e57]:
+          - link "Women" [ref=e58] [cursor=pointer]:
+            - /url: http://localhost:8000/women.html
+            - generic [ref=e59] [cursor=pointer]: Women
+          - img [ref=e60]
+        - listitem [ref=e62]:
+          - generic [ref=e63]: Tops
+      - heading "Tops" [level=1] [ref=e64]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Filters
+              - img [ref=e76] [cursor=pointer]
+            - generic [ref=e79]:
+              - generic:
+                - list
+              - generic [ref=e80]:
+                - searchbox "Search within the results" [ref=e81]
+                - img [ref=e82]
+                - button "__('Clear the search query')":
+                  - img
+              - generic [ref=e85] [cursor=pointer]: Show results
+          - generic [ref=e86] [cursor=pointer]: Filters
+        - generic [ref=e88]:
+          - generic [ref=e90]:
+            - generic [ref=e92]: 0 products
+            - combobox "Items per page" [ref=e94]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+              - option "All"
+            - combobox "Sort options" [ref=e96]:
+              - option "Relevance" [selected]
+              - option "Name A-Z"
+              - option "Name Z-A"
+              - option "Price ascending"
+              - option "Price descending"
+              - option "Newest"
+          - generic [ref=e98]:
+            - heading "No products found." [level=2] [ref=e100]
+            - heading "Popular products" [level=2] [ref=e104]
+  - contentinfo [ref=e105]:
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - navigation [ref=e108]:
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - strong [ref=e111]: Catalog
+            - listitem [ref=e112]:
+              - link "What's New" [ref=e113] [cursor=pointer]:
+                - /url: /what-is-new.html
+            - listitem [ref=e114]:
+              - link "Women" [ref=e115] [cursor=pointer]:
+                - /url: /women.html
+            - listitem [ref=e116]:
+              - link "Men" [ref=e117] [cursor=pointer]:
+                - /url: /men.html
+            - listitem [ref=e118]:
+              - link "Gear" [ref=e119] [cursor=pointer]:
+                - /url: /gear.html
+            - listitem [ref=e120]:
+              - link "Training" [ref=e121] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e122]:
+              - link "Sale" [ref=e123] [cursor=pointer]:
+                - /url: /sale.html
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - strong [ref=e126]: Support
+            - listitem [ref=e127]:
+              - link "Customer Service" [ref=e128] [cursor=pointer]:
+                - /url: /customer-service.html
+            - listitem [ref=e129]:
+              - link "Documentation" [ref=e130] [cursor=pointer]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e131]:
+              - link "FAQ" [ref=e132] [cursor=pointer]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - strong [ref=e135]: Legal
+            - listitem [ref=e136]:
+              - link "Privacy" [ref=e137] [cursor=pointer]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e138]:
+              - link "Cookies" [ref=e139] [cursor=pointer]:
+                - /url: /enable-cookies
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - strong [ref=e142]: Rapidez
+            - listitem [ref=e143]:
+              - link "Website" [ref=e144] [cursor=pointer]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e145]:
+              - link "GitHub" [ref=e146] [cursor=pointer]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e147]:
+          - strong [ref=e148]: Want product news and updates?
+          - paragraph [ref=e149]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - textbox "Enter your email" [ref=e155]
+              - button "Subscribe" [ref=e157] [cursor=pointer]
+            - paragraph [ref=e158]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e159] [cursor=pointer]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - link "GitHub" [ref=e162] [cursor=pointer]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e163] [cursor=pointer]: GitHub
+            - img [ref=e164] [cursor=pointer]
+          - link "X" [ref=e166] [cursor=pointer]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e167] [cursor=pointer]: X
+            - img [ref=e168] [cursor=pointer]
+          - link "Slack" [ref=e170] [cursor=pointer]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e171] [cursor=pointer]: Slack
+            - img [ref=e172] [cursor=pointer]
+        - paragraph [ref=e175]: © 2025 Rapidez. All rights reserved.
+```
