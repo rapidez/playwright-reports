@@ -1,0 +1,432 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - link "Go to home" [ref=e12]:
+        - /url: http://localhost:8000
+        - img "Rapidez logo" [ref=e14]
+      - generic [ref=e18]:
+        - searchbox "What are you looking for?" [ref=e19]
+        - button "Clear the search query" [ref=e20] [cursor=pointer]:
+          - img [ref=e21] [cursor=pointer]
+        - button "@lang('Search')" [ref=e23] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e24]:
+        - link "Login" [ref=e27]:
+          - /url: http://localhost:8000/login
+          - img [ref=e28]
+        - link "Cart" [ref=e30]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e31]
+      - navigation "Main menu" [ref=e33]:
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "What's New" [ref=e37]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e38]:
+            - link "Women" [ref=e39]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e40]:
+            - link "Men" [ref=e41]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e42]:
+            - link "Gear" [ref=e43]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e44]:
+            - link "Training" [ref=e45]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e46]:
+            - link "Sale" [ref=e47]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - link "Home" [ref=e52]:
+            - /url: http://localhost:8000
+            - generic [ref=e53]: Home
+          - img [ref=e54]
+        - listitem [ref=e56]:
+          - link "Gear" [ref=e57]:
+            - /url: http://localhost:8000/gear.html
+            - generic [ref=e58]: Gear
+          - img [ref=e59]
+        - listitem [ref=e61]:
+          - generic [ref=e62]: Bags
+      - heading "Bags" [level=1] [ref=e63]
+      - generic [ref=e67]:
+        - generic [ref=e72]:
+          - generic:
+            - list
+          - generic [ref=e73]:
+            - searchbox "Search within the results" [ref=e74]
+            - img [ref=e75]
+            - button "__('Clear the search query')":
+              - img
+          - group [ref=e79]:
+            - generic "Price" [ref=e80] [cursor=pointer]:
+              - text: Price
+              - img [ref=e81] [cursor=pointer]
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - slider "Price from": "32"
+                - slider "Price to": "74"
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - spinbutton "@lang('Price from')" [ref=e95]: "32"
+                  - generic [ref=e96]: €
+                - generic [ref=e97]:
+                  - spinbutton "@lang('Price to')" [ref=e98]: "74"
+                  - generic [ref=e99]: €
+          - group [ref=e101]:
+            - generic "Activity" [ref=e102] [cursor=pointer]:
+              - text: Activity
+              - img [ref=e103] [cursor=pointer]
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107] [cursor=pointer]:
+                  - checkbox "Gym (9)" [ref=e108] [cursor=pointer]
+                  - generic [ref=e109] [cursor=pointer]:
+                    - text: Gym
+                    - generic [ref=e110] [cursor=pointer]: (9)
+                - generic [ref=e111] [cursor=pointer]:
+                  - checkbox "School (6)" [ref=e112] [cursor=pointer]
+                  - generic [ref=e113] [cursor=pointer]:
+                    - text: School
+                    - generic [ref=e114] [cursor=pointer]: (6)
+                - generic [ref=e115] [cursor=pointer]:
+                  - checkbox "Yoga (6)" [ref=e116] [cursor=pointer]
+                  - generic [ref=e117] [cursor=pointer]:
+                    - text: Yoga
+                    - generic [ref=e118] [cursor=pointer]: (6)
+                - generic [ref=e119] [cursor=pointer]:
+                  - checkbox "Travel (5)" [ref=e120] [cursor=pointer]
+                  - generic [ref=e121] [cursor=pointer]:
+                    - text: Travel
+                    - generic [ref=e122] [cursor=pointer]: (5)
+                - generic [ref=e123] [cursor=pointer]:
+                  - checkbox "Urban (5)" [ref=e124] [cursor=pointer]
+                  - generic [ref=e125] [cursor=pointer]:
+                    - text: Urban
+                    - generic [ref=e126] [cursor=pointer]: (5)
+                - generic [ref=e127] [cursor=pointer]:
+                  - checkbox "Hiking (4)" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129] [cursor=pointer]:
+                    - text: Hiking
+                    - generic [ref=e130] [cursor=pointer]: (4)
+              - button "More options" [ref=e131] [cursor=pointer]
+          - group [ref=e133]:
+            - generic "Style" [ref=e134] [cursor=pointer]:
+              - text: Style
+              - img [ref=e135] [cursor=pointer]
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e139] [cursor=pointer]:
+                  - checkbox "Exercise (6)" [ref=e140] [cursor=pointer]
+                  - generic [ref=e141] [cursor=pointer]:
+                    - text: Exercise
+                    - generic [ref=e142] [cursor=pointer]: (6)
+                - generic [ref=e143] [cursor=pointer]:
+                  - checkbox "Laptop (6)" [ref=e144] [cursor=pointer]
+                  - generic [ref=e145] [cursor=pointer]:
+                    - text: Laptop
+                    - generic [ref=e146] [cursor=pointer]: (6)
+                - generic [ref=e147] [cursor=pointer]:
+                  - checkbox "Backpack (4)" [ref=e148] [cursor=pointer]
+                  - generic [ref=e149] [cursor=pointer]:
+                    - text: Backpack
+                    - generic [ref=e150] [cursor=pointer]: (4)
+                - generic [ref=e151] [cursor=pointer]:
+                  - checkbox "Messenger (4)" [ref=e152] [cursor=pointer]
+                  - generic [ref=e153] [cursor=pointer]:
+                    - text: Messenger
+                    - generic [ref=e154] [cursor=pointer]: (4)
+                - generic [ref=e155] [cursor=pointer]:
+                  - checkbox "Tote (4)" [ref=e156] [cursor=pointer]
+                  - generic [ref=e157] [cursor=pointer]:
+                    - text: Tote
+                    - generic [ref=e158] [cursor=pointer]: (4)
+                - generic [ref=e159] [cursor=pointer]:
+                  - checkbox "Duffel (2)" [ref=e160] [cursor=pointer]
+                  - generic [ref=e161] [cursor=pointer]:
+                    - text: Duffel
+                    - generic [ref=e162] [cursor=pointer]: (2)
+              - button "More options" [ref=e163] [cursor=pointer]
+          - group [ref=e165]:
+            - generic "Material" [ref=e166] [cursor=pointer]:
+              - text: Material
+              - img [ref=e167] [cursor=pointer]
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - generic [ref=e171] [cursor=pointer]:
+                  - checkbox "Nylon (11)" [ref=e172] [cursor=pointer]
+                  - generic [ref=e173] [cursor=pointer]:
+                    - text: Nylon
+                    - generic [ref=e174] [cursor=pointer]: (11)
+                - generic [ref=e175] [cursor=pointer]:
+                  - checkbox "Polyester (11)" [ref=e176] [cursor=pointer]
+                  - generic [ref=e177] [cursor=pointer]:
+                    - text: Polyester
+                    - generic [ref=e178] [cursor=pointer]: (11)
+                - generic [ref=e179] [cursor=pointer]:
+                  - checkbox "Mesh (3)" [ref=e180] [cursor=pointer]
+                  - generic [ref=e181] [cursor=pointer]:
+                    - text: Mesh
+                    - generic [ref=e182] [cursor=pointer]: (3)
+                - generic [ref=e183] [cursor=pointer]:
+                  - checkbox "Leather (2)" [ref=e184] [cursor=pointer]
+                  - generic [ref=e185] [cursor=pointer]:
+                    - text: Leather
+                    - generic [ref=e186] [cursor=pointer]: (2)
+                - generic [ref=e187] [cursor=pointer]:
+                  - checkbox "Burlap (1)" [ref=e188] [cursor=pointer]
+                  - generic [ref=e189] [cursor=pointer]:
+                    - text: Burlap
+                    - generic [ref=e190] [cursor=pointer]: (1)
+                - generic [ref=e191] [cursor=pointer]:
+                  - checkbox "Canvas (1)" [ref=e192] [cursor=pointer]
+                  - generic [ref=e193] [cursor=pointer]:
+                    - text: Canvas
+                    - generic [ref=e194] [cursor=pointer]: (1)
+              - button "More options" [ref=e195] [cursor=pointer]
+          - group [ref=e197]:
+            - generic "Strap/Handle" [ref=e198] [cursor=pointer]:
+              - text: Strap/Handle
+              - img [ref=e199] [cursor=pointer]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203] [cursor=pointer]:
+                  - checkbox "Adjustable (11)" [ref=e204] [cursor=pointer]
+                  - generic [ref=e205] [cursor=pointer]:
+                    - text: Adjustable
+                    - generic [ref=e206] [cursor=pointer]: (11)
+                - generic [ref=e207] [cursor=pointer]:
+                  - checkbox "Double (9)" [ref=e208] [cursor=pointer]
+                  - generic [ref=e209] [cursor=pointer]:
+                    - text: Double
+                    - generic [ref=e210] [cursor=pointer]: (9)
+                - generic [ref=e211] [cursor=pointer]:
+                  - checkbox "Padded (7)" [ref=e212] [cursor=pointer]
+                  - generic [ref=e213] [cursor=pointer]:
+                    - text: Padded
+                    - generic [ref=e214] [cursor=pointer]: (7)
+                - generic [ref=e215] [cursor=pointer]:
+                  - checkbox "Shoulder (7)" [ref=e216] [cursor=pointer]
+                  - generic [ref=e217] [cursor=pointer]:
+                    - text: Shoulder
+                    - generic [ref=e218] [cursor=pointer]: (7)
+                - generic [ref=e219] [cursor=pointer]:
+                  - checkbox "Cross Body (4)" [ref=e220] [cursor=pointer]
+                  - generic [ref=e221] [cursor=pointer]:
+                    - text: Cross Body
+                    - generic [ref=e222] [cursor=pointer]: (4)
+                - generic [ref=e223] [cursor=pointer]:
+                  - checkbox "Single (4)" [ref=e224] [cursor=pointer]
+                  - generic [ref=e225] [cursor=pointer]:
+                    - text: Single
+                    - generic [ref=e226] [cursor=pointer]: (4)
+              - button "More options" [ref=e227] [cursor=pointer]
+          - group [ref=e229]:
+            - generic "Features" [ref=e230] [cursor=pointer]:
+              - text: Features
+              - img [ref=e231] [cursor=pointer]
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235] [cursor=pointer]:
+                  - checkbox "Lightweight (10)" [ref=e236] [cursor=pointer]
+                  - generic [ref=e237] [cursor=pointer]:
+                    - text: Lightweight
+                    - generic [ref=e238] [cursor=pointer]: (10)
+                - generic [ref=e239] [cursor=pointer]:
+                  - checkbox "Waterproof (8)" [ref=e240] [cursor=pointer]
+                  - generic [ref=e241] [cursor=pointer]:
+                    - text: Waterproof
+                    - generic [ref=e242] [cursor=pointer]: (8)
+                - generic [ref=e243] [cursor=pointer]:
+                  - checkbox "Laptop Sleeve (7)" [ref=e244] [cursor=pointer]
+                  - generic [ref=e245] [cursor=pointer]:
+                    - text: Laptop Sleeve
+                    - generic [ref=e246] [cursor=pointer]: (7)
+                - generic [ref=e247] [cursor=pointer]:
+                  - checkbox "Audio Pocket (6)" [ref=e248] [cursor=pointer]
+                  - generic [ref=e249] [cursor=pointer]:
+                    - text: Audio Pocket
+                    - generic [ref=e250] [cursor=pointer]: (6)
+                - generic [ref=e251] [cursor=pointer]:
+                  - checkbox "Lockable (6)" [ref=e252] [cursor=pointer]
+                  - generic [ref=e253] [cursor=pointer]:
+                    - text: Lockable
+                    - generic [ref=e254] [cursor=pointer]: (6)
+                - generic [ref=e255] [cursor=pointer]:
+                  - checkbox "Reflective (5)" [ref=e256] [cursor=pointer]
+                  - generic [ref=e257] [cursor=pointer]:
+                    - text: Reflective
+                    - generic [ref=e258] [cursor=pointer]: (5)
+              - button "More options" [ref=e259] [cursor=pointer]
+          - group [ref=e261]:
+            - generic "Performance Fabric" [ref=e262] [cursor=pointer]:
+              - text: Performance Fabric
+              - img [ref=e263] [cursor=pointer]
+            - generic [ref=e267] [cursor=pointer]:
+              - checkbox "Yes (1)" [ref=e268] [cursor=pointer]
+              - generic [ref=e269] [cursor=pointer]:
+                - text: "Yes"
+                - generic [ref=e270] [cursor=pointer]: (1)
+          - group [ref=e272]:
+            - generic "Erin Recommends" [ref=e273] [cursor=pointer]:
+              - text: Erin Recommends
+              - img [ref=e274] [cursor=pointer]
+            - generic [ref=e278] [cursor=pointer]:
+              - checkbox "Yes (3)" [ref=e279] [cursor=pointer]
+              - generic [ref=e280] [cursor=pointer]:
+                - text: "Yes"
+                - generic [ref=e281] [cursor=pointer]: (3)
+          - group [ref=e283]:
+            - generic "New" [ref=e284] [cursor=pointer]:
+              - text: New
+              - img [ref=e285] [cursor=pointer]
+            - generic [ref=e289] [cursor=pointer]:
+              - checkbox "Yes (3)" [ref=e290] [cursor=pointer]
+              - generic [ref=e291] [cursor=pointer]:
+                - text: "Yes"
+                - generic [ref=e292] [cursor=pointer]: (3)
+          - group [ref=e294]:
+            - generic "Sale" [ref=e295] [cursor=pointer]:
+              - text: Sale
+              - img [ref=e296] [cursor=pointer]
+            - generic [ref=e300] [cursor=pointer]:
+              - checkbox "Yes (3)" [ref=e301] [cursor=pointer]
+              - generic [ref=e302] [cursor=pointer]:
+                - text: "Yes"
+                - generic [ref=e303] [cursor=pointer]: (3)
+        - generic [ref=e305]:
+          - generic [ref=e307]:
+            - generic [ref=e309]: 14 products
+            - combobox "Items per page" [ref=e311]:
+              - option "12" [selected]
+              - option "24"
+              - option "36"
+              - option "All"
+            - combobox "Sort options" [ref=e313]:
+              - option "Relevance" [selected]
+              - option "Name A-Z"
+              - option "Name Z-A"
+              - option "Price ascending"
+              - option "Price descending"
+              - option "Newest"
+          - generic [ref=e316]:
+            - generic [ref=e318]:
+              - link "Overnight Duffle Overnight Duffle €45.00" [ref=e319]:
+                - /url: http://localhost:8000/overnight-duffle.html
+                - img "Overnight Duffle" [ref=e320]
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Overnight Duffle
+                  - generic [ref=e324]: €45.00
+              - button "Add to cart" [ref=e328] [cursor=pointer]:
+                - img [ref=e329] [cursor=pointer]
+                - generic [ref=e331] [cursor=pointer]: Add to cart
+            - generic [ref=e333]:
+              - link "Push It Messenger Bag Push It Messenger Bag €45.00" [ref=e334]:
+                - /url: http://localhost:8000/push-it-messenger-bag.html
+                - img "Push It Messenger Bag" [ref=e335]
+                - generic [ref=e336]:
+                  - generic [ref=e337]: Push It Messenger Bag
+                  - generic [ref=e339]: €45.00
+              - button "Add to cart" [ref=e343] [cursor=pointer]:
+                - img [ref=e344] [cursor=pointer]
+                - generic [ref=e346] [cursor=pointer]: Add to cart
+          - list [ref=e348]:
+            - listitem [ref=e349]:
+              - button "Previous Page" [ref=e350] [cursor=pointer]:
+                - img [ref=e351] [cursor=pointer]
+                - generic [ref=e353] [cursor=pointer]: Prev
+            - listitem [ref=e354]:
+              - button "Page 1" [ref=e355] [cursor=pointer]: "1"
+            - listitem [ref=e356]:
+              - button "Page 2" [active] [ref=e357] [cursor=pointer]: "2"
+  - contentinfo [ref=e358]:
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - navigation [ref=e361]:
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - strong [ref=e364]: Catalog
+            - listitem [ref=e365]:
+              - link "What's New" [ref=e366]:
+                - /url: /what-is-new.html
+            - listitem [ref=e367]:
+              - link "Women" [ref=e368]:
+                - /url: /women.html
+            - listitem [ref=e369]:
+              - link "Men" [ref=e370]:
+                - /url: /men.html
+            - listitem [ref=e371]:
+              - link "Gear" [ref=e372]:
+                - /url: /gear.html
+            - listitem [ref=e373]:
+              - link "Training" [ref=e374]:
+                - /url: /training.html
+            - listitem [ref=e375]:
+              - link "Sale" [ref=e376]:
+                - /url: /sale.html
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - strong [ref=e379]: Support
+            - listitem [ref=e380]:
+              - link "Customer Service" [ref=e381]:
+                - /url: /customer-service.html
+            - listitem [ref=e382]:
+              - link "Documentation" [ref=e383]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e384]:
+              - link "FAQ" [ref=e385]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - strong [ref=e388]: Legal
+            - listitem [ref=e389]:
+              - link "Privacy" [ref=e390]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e391]:
+              - link "Cookies" [ref=e392]:
+                - /url: /enable-cookies
+          - list [ref=e393]:
+            - listitem [ref=e394]:
+              - strong [ref=e395]: Rapidez
+            - listitem [ref=e396]:
+              - link "Website" [ref=e397]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e398]:
+              - link "GitHub" [ref=e399]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e400]:
+          - strong [ref=e401]: Want product news and updates?
+          - paragraph [ref=e402]: Sign up for our newsletter to stay up to date.
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - textbox "Enter your email" [ref=e408]
+              - button "Subscribe" [ref=e410] [cursor=pointer]
+            - paragraph [ref=e411]:
+              - text: We care about the protection of your data. Read our
+              - link "Privacy Policy" [ref=e412]:
+                - /url: http://localhost:8000/privacy-policy-cookie-restriction-mode
+      - generic [ref=e413]:
+        - generic [ref=e414]:
+          - link "GitHub" [ref=e415]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e416]: GitHub
+            - img [ref=e417]
+          - link "X" [ref=e419]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e420]: X
+            - img [ref=e421]
+          - link "Slack" [ref=e423]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e424]: Slack
+            - img [ref=e425]
+        - paragraph [ref=e428]: © 2025 Rapidez. All rights reserved.
+```
