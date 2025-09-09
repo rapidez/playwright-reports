@@ -1,0 +1,87 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - list "USP features" [ref=e10]:
+    - listitem [ref=e11]:
+      - img [ref=e12]
+      - generic [ref=e14]: Wide range of products
+    - listitem [ref=e15]:
+      - img [ref=e16]
+      - generic [ref=e18]: Free returns
+    - listitem [ref=e19]:
+      - img [ref=e20]
+      - generic [ref=e22]: All items shown are in stock
+    - listitem [ref=e23]:
+      - img [ref=e24]
+      - generic [ref=e26]: Free shipping
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - link "Back to cart" [ref=e34]:
+              - /url: http://localhost:8000/cart
+              - img [ref=e35]
+            - link "Home" [ref=e37]:
+              - /url: http://localhost:8000
+              - img [ref=e38]
+          - generic [ref=e41]: Login
+        - generic [ref=e42]:
+          - generic [ref=e43]: Step 1 out of 3
+          - link "Go to step 1" [ref=e44]:
+            - /url: http://localhost:8000/checkout/login
+          - link "Go to step 2":
+            - /url: http://localhost:8000/checkout/credentials
+          - link "Go to step 3":
+            - /url: http://localhost:8000/checkout/payment
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - group [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: Email *
+              - textbox "Email *" [ref=e54]: wayne+4e4fbadf-361c-4b68-90f2-0c6a0d05b431@enterprises.com
+            - paragraph [ref=e55]: We'll email your order confirmation and check if you have an account for faster checkout.
+            - generic [ref=e56]:
+              - generic [ref=e57]: Password *
+              - generic [ref=e59]:
+                - textbox "Password *" [ref=e60]: IronManSucks.91939
+                - img [ref=e62] [cursor=pointer]
+            - generic [ref=e64]:
+              - generic [ref=e65]: Repeat password *
+              - generic [ref=e67]:
+                - textbox "Repeat password *" [ref=e68]: IronManSucks.91939
+                - img [ref=e70] [cursor=pointer]
+            - generic [ref=e72]:
+              - generic [ref=e73]: Firstname *
+              - textbox "Firstname *" [ref=e74]: Bruce
+            - generic [ref=e75]:
+              - generic [ref=e76]: Lastname *
+              - textbox "Lastname *" [active] [ref=e77]: Wayne
+            - generic [ref=e79] [cursor=pointer]:
+              - checkbox "Create an account" [checked] [ref=e80] [cursor=pointer]
+              - text: Create an account
+            - button "Register" [ref=e81] [cursor=pointer]
+          - generic [ref=e82]:
+            - link "Back to cart" [ref=e83] [cursor=pointer]:
+              - /url: http://localhost:8000/cart
+            - button "Next" [ref=e84] [cursor=pointer]
+        - generic [ref=e87]:
+          - generic [ref=e88]: Order overview
+          - list [ref=e89]:
+            - listitem [ref=e90]: 1x Wayfarer Messenger Bag
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - term [ref=e93]: Subtotal
+              - definition [ref=e94]: €45.00
+            - generic [ref=e95]:
+              - term [ref=e96]: Total
+              - definition [ref=e97]: €45.00
+  - contentinfo [ref=e98]:
+    - generic [ref=e99]:
+      - link "Privacy Policy" [ref=e100]:
+        - /url: "#"
+      - link "Terms & Conditions" [ref=e101]:
+        - /url: "#"
+```

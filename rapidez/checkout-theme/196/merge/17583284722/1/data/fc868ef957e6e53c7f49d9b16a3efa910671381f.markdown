@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - list "USP features" [ref=e10]:
+    - listitem [ref=e11]:
+      - img [ref=e12]
+      - generic [ref=e14]: Wide range of products
+    - listitem [ref=e15]:
+      - img [ref=e16]
+      - generic [ref=e18]: Free returns
+    - listitem [ref=e19]:
+      - img [ref=e20]
+      - generic [ref=e22]: All items shown are in stock
+    - listitem [ref=e23]:
+      - img [ref=e24]
+      - generic [ref=e26]: Free shipping
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "Back to cart" [ref=e34]:
+              - /url: http://localhost:8000/cart
+              - img [ref=e35]
+            - generic [ref=e37]: Login
+          - generic [ref=e38]:
+            - generic [ref=e39]: Step 1 out of 3
+            - link "Go to step 1" [ref=e40]:
+              - /url: http://localhost:8000/checkout/login
+            - link "Go to step 2":
+              - /url: http://localhost:8000/checkout/credentials
+            - link "Go to step 3":
+              - /url: http://localhost:8000/checkout/payment
+        - link "Home" [ref=e42]:
+          - /url: http://localhost:8000
+          - img [ref=e43]
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - group [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: Email *
+              - textbox "Email *" [active] [ref=e55]: wayne+27ff23a2-921c-4896-8064-472fb85f2f80@enterprises.com
+            - paragraph [ref=e56]: We'll email your order confirmation and check if you have an account for faster checkout.
+            - generic [ref=e58] [cursor=pointer]:
+              - checkbox "Create an account" [ref=e59] [cursor=pointer]
+              - text: Create an account
+          - generic [ref=e60]:
+            - link "Back to cart" [ref=e61] [cursor=pointer]:
+              - /url: http://localhost:8000/cart
+            - button "Next" [ref=e62] [cursor=pointer]
+        - generic [ref=e65]:
+          - generic [ref=e66]: Order overview
+          - list [ref=e67]:
+            - listitem [ref=e68]: 1x Wayfarer Messenger Bag
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - term [ref=e71]: Subtotal
+              - definition [ref=e72]: €45.00
+            - generic [ref=e73]:
+              - term [ref=e74]: Total
+              - definition [ref=e75]: €45.00
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - link "Privacy Policy" [ref=e78]:
+        - /url: "#"
+      - link "Terms & Conditions" [ref=e79]:
+        - /url: "#"
+```

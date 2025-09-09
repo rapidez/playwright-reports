@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - link "Go to home" [ref=e12] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img "Rapidez logo" [ref=e14] [cursor=pointer]
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e21]:
+        - searchbox "What are you looking for?" [ref=e22]
+        - button "Clear the search query" [ref=e23] [cursor=pointer]:
+          - img [ref=e24] [cursor=pointer]
+        - button "@lang('Search')" [ref=e26] [cursor=pointer]:
+          - generic:
+            - img
+      - generic [ref=e27]:
+        - button "Bruce" [ref=e30] [cursor=pointer]:
+          - img [ref=e31] [cursor=pointer]
+          - text: Bruce
+        - link "Cart" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost:8000/cart
+          - img [ref=e34] [cursor=pointer]
+      - navigation "Main menu":
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "What's New" [ref=e38] [cursor=pointer]:
+              - /url: http://localhost:8000/what-is-new.html
+          - listitem [ref=e39]:
+            - link "Women" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/women.html
+          - listitem [ref=e41]:
+            - link "Men" [ref=e42] [cursor=pointer]:
+              - /url: http://localhost:8000/men.html
+          - listitem [ref=e43]:
+            - link "Gear" [ref=e44] [cursor=pointer]:
+              - /url: http://localhost:8000/gear.html
+          - listitem [ref=e45]:
+            - link "Training" [ref=e46] [cursor=pointer]:
+              - /url: http://localhost:8000/training.html
+          - listitem [ref=e47]:
+            - link "Sale" [ref=e48] [cursor=pointer]:
+              - /url: http://localhost:8000/sale.html
+  - main [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]: Account overview
+      - generic [ref=e52]:
+        - generic [ref=e55]:
+          - link "My orders (0) Place repeat order / View orders" [ref=e56] [cursor=pointer]:
+            - /url: /account/orders
+            - img [ref=e57] [cursor=pointer]
+            - generic [ref=e59] [cursor=pointer]:
+              - strong [ref=e60] [cursor=pointer]: My orders (0)
+              - paragraph [ref=e61] [cursor=pointer]: Place repeat order / View orders
+            - img [ref=e62] [cursor=pointer]
+          - link "Account settings Change credentials / Add addresses / Newsletters" [ref=e64] [cursor=pointer]:
+            - /url: /account/edit
+            - img [ref=e65] [cursor=pointer]
+            - generic [ref=e67] [cursor=pointer]:
+              - strong [ref=e68] [cursor=pointer]: Account settings
+              - paragraph [ref=e69] [cursor=pointer]: Change credentials / Add addresses / Newsletters
+            - img [ref=e70] [cursor=pointer]
+          - button "Logout Logout from your account" [ref=e72] [cursor=pointer]:
+            - img [ref=e73] [cursor=pointer]
+            - generic [ref=e75] [cursor=pointer]:
+              - strong [ref=e76] [cursor=pointer]: Logout
+              - paragraph [ref=e77] [cursor=pointer]: Logout from your account
+            - img [ref=e78] [cursor=pointer]
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Shipping & billing address
+            - text: No default address has been set yet.
+          - link "Account settings" [ref=e86] [cursor=pointer]:
+            - /url: http://localhost:8000/account/edit
+            - generic [ref=e87] [cursor=pointer]: Account settings
+            - img [ref=e88] [cursor=pointer]
+  - contentinfo [ref=e90]:
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - navigation [ref=e93]:
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - strong [ref=e96]: Catalog
+            - listitem [ref=e97]:
+              - link "What's New" [ref=e98] [cursor=pointer]:
+                - /url: /what-is-new.html
+            - listitem [ref=e99]:
+              - link "Women" [ref=e100] [cursor=pointer]:
+                - /url: /women.html
+            - listitem [ref=e101]:
+              - link "Men" [ref=e102] [cursor=pointer]:
+                - /url: /men.html
+            - listitem [ref=e103]:
+              - link "Gear" [ref=e104] [cursor=pointer]:
+                - /url: /gear.html
+            - listitem [ref=e105]:
+              - link "Training" [ref=e106] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e107]:
+              - link "Sale" [ref=e108] [cursor=pointer]:
+                - /url: /sale.html
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - strong [ref=e111]: Support
+            - listitem [ref=e112]:
+              - link "Customer Service" [ref=e113] [cursor=pointer]:
+                - /url: /customer-service.html
+            - listitem [ref=e114]:
+              - link "Documentation" [ref=e115] [cursor=pointer]:
+                - /url: https://docs.rapidez.io/
+            - listitem [ref=e116]:
+              - link "FAQ" [ref=e117] [cursor=pointer]:
+                - /url: https://rapidez.io/#faq
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - strong [ref=e120]: Legal
+            - listitem [ref=e121]:
+              - link "Privacy" [ref=e122] [cursor=pointer]:
+                - /url: /privacy-policy-cookie-restriction-mode
+            - listitem [ref=e123]:
+              - link "Cookies" [ref=e124] [cursor=pointer]:
+                - /url: /enable-cookies
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - strong [ref=e127]: Rapidez
+            - listitem [ref=e128]:
+              - link "Website" [ref=e129] [cursor=pointer]:
+                - /url: https://rapidez.io/
+            - listitem [ref=e130]:
+              - link "GitHub" [ref=e131] [cursor=pointer]:
+                - /url: https://github.com/rapidez
+        - generic [ref=e132]:
+          - strong [ref=e133]: Want product news and updates?
+          - paragraph [ref=e134]: Sign up for our newsletter to stay up to date.
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - link "GitHub" [ref=e139] [cursor=pointer]:
+            - /url: https://github.com/rapidez
+            - generic [ref=e140] [cursor=pointer]: GitHub
+            - img [ref=e141] [cursor=pointer]
+          - link "X" [ref=e143] [cursor=pointer]:
+            - /url: https://twitter.com/rapidez_io
+            - generic [ref=e144] [cursor=pointer]: X
+            - img [ref=e145] [cursor=pointer]
+          - link "Slack" [ref=e147] [cursor=pointer]:
+            - /url: https://rapidez.io/slack
+            - generic [ref=e148] [cursor=pointer]: Slack
+            - img [ref=e149] [cursor=pointer]
+        - paragraph [ref=e152]: © 2025 Rapidez Checkout Theme. All rights reserved.
+```
