@@ -1,0 +1,382 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - list "USP features" [ref=e10]:
+    - listitem [ref=e11]:
+      - img [ref=e12]
+      - generic [ref=e14]: Wide range of products
+    - listitem [ref=e15]:
+      - img [ref=e16]
+      - generic [ref=e18]: Free returns
+    - listitem [ref=e19]:
+      - img [ref=e20]
+      - generic [ref=e22]: All items shown are in stock
+    - listitem [ref=e23]:
+      - img [ref=e24]
+      - generic [ref=e26]: Free shipping
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - link "Back to cart" [ref=e34]:
+              - /url: http://localhost:8000/cart
+              - img [ref=e35]
+            - link "Home" [ref=e37]:
+              - /url: http://localhost:8000
+              - img [ref=e38]
+          - generic [ref=e41]: Credentials
+        - generic [ref=e42]:
+          - generic [ref=e43]: Step 1 out of 2
+          - link "Go to step 1" [ref=e44]:
+            - /url: http://localhost:8000/checkout/credentials
+          - link "Go to step 2":
+            - /url: http://localhost:8000/checkout/payment
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - group [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e53]: Email *
+                - textbox "Email *" [ref=e54]: wayne+abfd8000-67c5-4028-9e11-6747a5779895@enterprises.com
+              - paragraph [ref=e55]: We'll email your order confirmation and check if you have an account for faster checkout.
+              - generic [ref=e56]:
+                - generic [ref=e57]: Password *
+                - generic [ref=e59]:
+                  - textbox "Password *" [ref=e60]: IronManSucks.91939
+                  - img [ref=e62] [cursor=pointer]
+              - generic [ref=e64]:
+                - generic [ref=e65]: Repeat password *
+                - generic [ref=e67]:
+                  - textbox "Repeat password *" [ref=e68]: IronManSucks.91939
+                  - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72]:
+                - generic [ref=e73]: Firstname *
+                - textbox "Firstname *" [ref=e74]: Bruce
+              - generic [ref=e75]:
+                - generic [ref=e76]: Lastname *
+                - textbox "Lastname *" [active] [ref=e77]: Wayne
+              - generic [ref=e79] [cursor=pointer]:
+                - checkbox "Create an account" [checked] [ref=e80] [cursor=pointer]
+                - text: Create an account
+              - button "Register" [ref=e81] [cursor=pointer]
+            - generic [ref=e83]:
+              - group [ref=e84]:
+                - paragraph [ref=e85]: Shipping address
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: Company
+                    - textbox "Company" [ref=e90]
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: Country *
+                    - combobox "Country *" [ref=e94]:
+                      - option "Afghanistan"
+                      - option "Åland Islands"
+                      - option "Albania"
+                      - option "Algeria"
+                      - option "American Samoa"
+                      - option "Andorra"
+                      - option "Angola"
+                      - option "Anguilla"
+                      - option "Antarctica"
+                      - option "Antigua & Barbuda"
+                      - option "Argentina"
+                      - option "Armenia"
+                      - option "Aruba"
+                      - option "Australia"
+                      - option "Austria"
+                      - option "Azerbaijan"
+                      - option "Bahamas"
+                      - option "Bahrain"
+                      - option "Bangladesh"
+                      - option "Barbados"
+                      - option "Belarus"
+                      - option "Belgium"
+                      - option "Belize"
+                      - option "Benin"
+                      - option "Bermuda"
+                      - option "Bhutan"
+                      - option "Bolivia"
+                      - option "Bosnia & Herzegovina"
+                      - option "Botswana"
+                      - option "Bouvet Island"
+                      - option "Brazil"
+                      - option "British Indian Ocean Territory"
+                      - option "British Virgin Islands"
+                      - option "Brunei"
+                      - option "Bulgaria"
+                      - option "Burkina Faso"
+                      - option "Burundi"
+                      - option "Cambodia"
+                      - option "Cameroon"
+                      - option "Canada"
+                      - option "Cape Verde"
+                      - option "Caribbean Netherlands"
+                      - option "Cayman Islands"
+                      - option "Central African Republic"
+                      - option "Chad"
+                      - option "Chile"
+                      - option "China"
+                      - option "Christmas Island"
+                      - option "Cocos (Keeling) Islands"
+                      - option "Colombia"
+                      - option "Comoros"
+                      - option "Congo - Brazzaville"
+                      - option "Congo - Kinshasa"
+                      - option "Cook Islands"
+                      - option "Costa Rica"
+                      - option "Côte d’Ivoire"
+                      - option "Croatia"
+                      - option "Cuba"
+                      - option "Curaçao"
+                      - option "Cyprus"
+                      - option "Czechia"
+                      - option "Denmark"
+                      - option "Djibouti"
+                      - option "Dominica"
+                      - option "Dominican Republic"
+                      - option "Ecuador"
+                      - option "Egypt"
+                      - option "El Salvador"
+                      - option "Equatorial Guinea"
+                      - option "Eritrea"
+                      - option "Estonia"
+                      - option "Eswatini"
+                      - option "Ethiopia"
+                      - option "Falkland Islands"
+                      - option "Faroe Islands"
+                      - option "Fiji"
+                      - option "Finland"
+                      - option "France"
+                      - option "French Guiana"
+                      - option "French Polynesia"
+                      - option "French Southern Territories"
+                      - option "Gabon"
+                      - option "Gambia"
+                      - option "Georgia"
+                      - option "Germany"
+                      - option "Ghana"
+                      - option "Gibraltar"
+                      - option "Greece"
+                      - option "Greenland"
+                      - option "Grenada"
+                      - option "Guadeloupe"
+                      - option "Guam"
+                      - option "Guatemala"
+                      - option "Guernsey"
+                      - option "Guinea"
+                      - option "Guinea-Bissau"
+                      - option "Guyana"
+                      - option "Haiti"
+                      - option "Heard & McDonald Islands"
+                      - option "Honduras"
+                      - option "Hong Kong SAR China"
+                      - option "Hungary"
+                      - option "Iceland"
+                      - option "India"
+                      - option "Indonesia"
+                      - option "Iran"
+                      - option "Iraq"
+                      - option "Ireland"
+                      - option "Isle of Man"
+                      - option "Israel"
+                      - option "Italy"
+                      - option "Jamaica"
+                      - option "Japan"
+                      - option "Jersey"
+                      - option "Jordan"
+                      - option "Kazakhstan"
+                      - option "Kenya"
+                      - option "Kiribati"
+                      - option "Kosovo"
+                      - option "Kuwait"
+                      - option "Kyrgyzstan"
+                      - option "Laos"
+                      - option "Latvia"
+                      - option "Lebanon"
+                      - option "Lesotho"
+                      - option "Liberia"
+                      - option "Libya"
+                      - option "Liechtenstein"
+                      - option "Lithuania"
+                      - option "Luxembourg"
+                      - option "Macao SAR China"
+                      - option "Madagascar"
+                      - option "Malawi"
+                      - option "Malaysia"
+                      - option "Maldives"
+                      - option "Mali"
+                      - option "Malta"
+                      - option "Marshall Islands"
+                      - option "Martinique"
+                      - option "Mauritania"
+                      - option "Mauritius"
+                      - option "Mayotte"
+                      - option "Mexico"
+                      - option "Micronesia"
+                      - option "Moldova"
+                      - option "Monaco"
+                      - option "Mongolia"
+                      - option "Montenegro"
+                      - option "Montserrat"
+                      - option "Morocco"
+                      - option "Mozambique"
+                      - option "Myanmar (Burma)"
+                      - option "Namibia"
+                      - option "Nauru"
+                      - option "Nepal"
+                      - option "Netherlands" [selected]
+                      - option "New Caledonia"
+                      - option "New Zealand"
+                      - option "Nicaragua"
+                      - option "Niger"
+                      - option "Nigeria"
+                      - option "Niue"
+                      - option "Norfolk Island"
+                      - option "North Korea"
+                      - option "North Macedonia"
+                      - option "Northern Mariana Islands"
+                      - option "Norway"
+                      - option "Oman"
+                      - option "Pakistan"
+                      - option "Palau"
+                      - option "Palestinian Territories"
+                      - option "Panama"
+                      - option "Papua New Guinea"
+                      - option "Paraguay"
+                      - option "Peru"
+                      - option "Philippines"
+                      - option "Pitcairn Islands"
+                      - option "Poland"
+                      - option "Portugal"
+                      - option "Qatar"
+                      - option "Réunion"
+                      - option "Romania"
+                      - option "Russia"
+                      - option "Rwanda"
+                      - option "Samoa"
+                      - option "San Marino"
+                      - option "São Tomé & Príncipe"
+                      - option "Saudi Arabia"
+                      - option "Senegal"
+                      - option "Serbia"
+                      - option "Seychelles"
+                      - option "Sierra Leone"
+                      - option "Singapore"
+                      - option "Sint Maarten"
+                      - option "Slovakia"
+                      - option "Slovenia"
+                      - option "Solomon Islands"
+                      - option "Somalia"
+                      - option "South Africa"
+                      - option "South Georgia & South Sandwich Islands"
+                      - option "South Korea"
+                      - option "Spain"
+                      - option "Sri Lanka"
+                      - option "St. Barthélemy"
+                      - option "St. Helena"
+                      - option "St. Kitts & Nevis"
+                      - option "St. Lucia"
+                      - option "St. Martin"
+                      - option "St. Pierre & Miquelon"
+                      - option "St. Vincent & Grenadines"
+                      - option "Sudan"
+                      - option "Suriname"
+                      - option "Svalbard & Jan Mayen"
+                      - option "Sweden"
+                      - option "Switzerland"
+                      - option "Syria"
+                      - option "Taiwan"
+                      - option "Tajikistan"
+                      - option "Tanzania"
+                      - option "Thailand"
+                      - option "Timor-Leste"
+                      - option "Togo"
+                      - option "Tokelau"
+                      - option "Tonga"
+                      - option "Trinidad & Tobago"
+                      - option "Tunisia"
+                      - option "Turkey"
+                      - option "Turkmenistan"
+                      - option "Turks & Caicos Islands"
+                      - option "Tuvalu"
+                      - option "U.S. Outlying Islands"
+                      - option "U.S. Virgin Islands"
+                      - option "Uganda"
+                      - option "Ukraine"
+                      - option "United Arab Emirates"
+                      - option "United Kingdom"
+                      - option "United States"
+                      - option "Uruguay"
+                      - option "Uzbekistan"
+                      - option "Vanuatu"
+                      - option "Vatican City"
+                      - option "Venezuela"
+                      - option "Vietnam"
+                      - option "Wallis & Futuna"
+                      - option "Western Sahara"
+                      - option "Yemen"
+                      - option "Zambia"
+                      - option "Zimbabwe"
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: Firstname *
+                    - textbox "Firstname *" [ref=e97]
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: Lastname *
+                    - textbox "Lastname *" [ref=e100]
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: Telephone *
+                    - textbox "Telephone *" [ref=e103]
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: Postcode *
+                    - textbox "Postcode *" [ref=e106]
+                  - generic [ref=e107]:
+                    - generic [ref=e108]: Housenumber *
+                    - spinbutton "Housenumber *" [ref=e109]
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: Addition
+                    - textbox "Addition" [ref=e112]
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: Street *
+                    - textbox "Street *" [ref=e115]
+                  - generic [ref=e116]:
+                    - generic [ref=e117]: City *
+                    - textbox "City *" [ref=e118]
+              - group [ref=e120]:
+                - generic [ref=e121] [cursor=pointer]:
+                  - checkbox "My billing and shipping address are the same" [checked] [ref=e122] [cursor=pointer]
+                  - text: My billing and shipping address are the same
+            - generic [ref=e123]:
+              - generic [ref=e124]: Newsletter
+              - generic [ref=e125] [cursor=pointer]:
+                - checkbox "Yes, I want to subscribe to the newsletter You will receive this newsletter approximately 2x a year" [ref=e126] [cursor=pointer]
+                - generic [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128] [cursor=pointer]: Yes, I want to subscribe to the newsletter
+                  - generic [ref=e129] [cursor=pointer]: You will receive this newsletter approximately 2x a year
+            - generic [ref=e131]:
+              - generic [ref=e132]: Shipping method
+              - group
+          - generic [ref=e133]:
+            - link "Back to cart" [ref=e134] [cursor=pointer]:
+              - /url: http://localhost:8000/cart
+            - button "Next" [ref=e135] [cursor=pointer]
+        - generic [ref=e138]:
+          - generic [ref=e139]: Order overview
+          - list [ref=e140]:
+            - listitem [ref=e141]: 1x Wayfarer Messenger Bag
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - term [ref=e144]: Subtotal
+              - definition [ref=e145]: €45.00
+            - generic [ref=e146]:
+              - term [ref=e147]: Total
+              - definition [ref=e148]: €45.00
+  - contentinfo [ref=e149]:
+    - generic [ref=e150]:
+      - link "Privacy Policy" [ref=e151]:
+        - /url: "#"
+      - link "Terms & Conditions" [ref=e152]:
+        - /url: "#"
+```

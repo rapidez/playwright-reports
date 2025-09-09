@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - img [ref=e6] [cursor=pointer]
+  - list "USP features" [ref=e10]:
+    - listitem [ref=e11]:
+      - img [ref=e12]
+      - generic [ref=e14]: Wide range of products
+    - listitem [ref=e15]:
+      - img [ref=e16]
+      - generic [ref=e18]: Free returns
+    - listitem [ref=e19]:
+      - img [ref=e20]
+      - generic [ref=e22]: All items shown are in stock
+    - listitem [ref=e23]:
+      - img [ref=e24]
+      - generic [ref=e26]: Free shipping
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "Back to credentials" [ref=e34] [cursor=pointer]:
+              - /url: http://localhost:8000/checkout/credentials
+              - img [ref=e35] [cursor=pointer]
+            - generic [ref=e37]: Payment
+          - generic [ref=e38]:
+            - generic [ref=e39]: Step 2 out of 2
+            - link "Go to step 1" [ref=e40] [cursor=pointer]:
+              - /url: http://localhost:8000/checkout/credentials
+            - link "Go to step 2" [ref=e41] [cursor=pointer]:
+              - /url: http://localhost:8000/checkout/payment
+        - link "Home" [ref=e43] [cursor=pointer]:
+          - /url: http://localhost:8000
+          - img [ref=e44] [cursor=pointer]
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e54] [cursor=pointer]:
+            - radio "Check / Money order Check / Money order" [checked] [active] [ref=e55] [cursor=pointer]
+            - generic [ref=e57] [cursor=pointer]:
+              - generic [ref=e58] [cursor=pointer]: Check / Money order
+              - img "Check / Money order" [ref=e59] [cursor=pointer]
+          - generic [ref=e61]:
+            - link "Back to credentials" [ref=e62] [cursor=pointer]:
+              - /url: http://localhost:8000/checkout/credentials
+            - group [ref=e63]:
+              - button "Place order" [ref=e64] [cursor=pointer]
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Order overview
+            - list [ref=e69]:
+              - listitem [ref=e70]: 1x Wayfarer Messenger Bag
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - term [ref=e73]: Subtotal
+                - definition [ref=e74]: €45.00
+              - generic [ref=e75]:
+                - term [ref=e76]:
+                  - text: Shipping
+                  - generic [ref=e77]: Flat Rate - Fixed
+                - definition [ref=e78]: €5.00
+              - generic [ref=e79]:
+                - term [ref=e80]: Total
+                - definition [ref=e81]: €50.00
+          - generic [ref=e84]:
+            - generic [ref=e85]: Shipping & billing address
+            - generic [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88]: Bruce Wayne
+                - listitem [ref=e89]: Mountain Drive 1007
+                - listitem [ref=e90]: 72000 Gotham
+              - link "Edit" [ref=e92] [cursor=pointer]:
+                - /url: http://localhost:8000/checkout/credentials
+  - contentinfo [ref=e93]:
+    - generic [ref=e94]:
+      - link "Privacy Policy" [ref=e95] [cursor=pointer]:
+        - /url: "#"
+      - link "Terms & Conditions" [ref=e96] [cursor=pointer]:
+        - /url: "#"
+```
