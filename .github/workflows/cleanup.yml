@@ -1,0 +1,29 @@
+name: "Cleanup old reports"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: gh-pages
+
+      - name: Install and run git-filter-repo
+        run: |
+          apt-get install -y git-filter-repo
+          bash ./show-old-folders.sh > /tmp/remove-these.txt
+          git-filter-repo --paths-from-file=/tmp/remove-these.txt --invert-paths
+          git remote add origin git@github.com:rapidez/playwright-reports.git
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            force_with_lease: true # Force push to overwrite history
