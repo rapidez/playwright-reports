@@ -3,7 +3,7 @@ name: "Cleanup old reports"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 4 * * 0' # Runs every Sunday at midnight
 
 jobs:
   cleanup:
